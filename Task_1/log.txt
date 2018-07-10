@@ -1,0 +1,53 @@
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ make -C /usr/src/linux-headers-4.15.0-20-generic M=$PWD modules
+make: Entering directory '/usr/src/linux-headers-4.15.0-20-generic'
+Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  Building modules, stage 2.
+  MODPOST 1 modules
+make: Leaving directory '/usr/src/linux-headers-4.15.0-20-generic'
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ make -C /usr/src/linux-headers-4.15.0-20-generic M=$PWD clean
+make: Entering directory '/usr/src/linux-headers-4.15.0-20-generic'
+  CLEAN   /home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/.tmp_versions
+  CLEAN   /home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/Module.symvers
+make: Leaving directory '/usr/src/linux-headers-4.15.0-20-generic'
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ ls
+hello_world.c  Makefile
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ make -C /usr/src/linux-headers-4.15.0-20-generic M=$PWD modules
+make: Entering directory '/usr/src/linux-headers-4.15.0-20-generic'
+Makefile:976: "Cannot use CONFIG_STACK_VALIDATION=y, please install libelf-dev, libelf-devel or elfutils-libelf-devel"
+  CC [M]  /home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/hello_world.o
+/home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/hello_world.c:4:12: warning: ‘hello_data’ defined but not used [-Wunused-variable]
+ static int hello_data __initdata = 3;
+            ^~~~~~~~~~
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/hello_world.mod.o
+  LD [M]  /home/nishad/workspace_nishad/eudyptula/Task_1/hello_world/hello_world.ko
+make: Leaving directory '/usr/src/linux-headers-4.15.0-20-generic'
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ ls
+hello_world.c   hello_world.mod.c  hello_world.o  modules.order
+hello_world.ko  hello_world.mod.o  Makefile       Module.symvers
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ 
+
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ dmesg | grep Hello 
+[ 6067.040542] Hello, Kernel World!
+[ 6256.343168] Hello, Kernel World!
+[ 6409.027157] Hello, Kernel World!
+[ 6491.693373] Hello, Kernel World!
+[ 6535.286143] Hello, Kernel World!
+[ 6655.362817] Hello, Kernel World!
+[ 6966.670357] Hello, Kernel World!
+[ 7049.205550] Hello, Kernel World!
+[ 7147.607963] Hello, Kernel World!
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ sudo rmmod hello_world.ko 
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ dmesg | grep Goo
+[ 6098.309579] Goodbye, Kernel World!
+[ 6377.988085] Goodbye, Kernel World!
+[ 6457.919548] Goodbye, Kernel World!
+[ 6499.158310] Goodbye, Kernel World!
+[ 6543.514387] Goodbye, Kernel World!
+[ 6661.082944] Goodbye, Kernel World!
+[ 6985.547832] Goodbye, Kernel World!
+[ 7065.047014] Goodbye, Kernel World!
+[ 7165.768545] Goodbye, Kernel World!
+nishad@nishad:~/workspace_nishad/eudyptula/Task_1/hello_world$ 
+

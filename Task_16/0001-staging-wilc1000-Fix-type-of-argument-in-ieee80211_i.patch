@@ -1,0 +1,30 @@
+From 5830de5490e102929032bbdc1caaee660d3cc106 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Sun, 10 Jun 2018 12:00:41 +0530
+Subject: [PATCH] staging: wilc1000: Fix type of argument in
+ ieee80211_is_action()
+
+Type used is unsigned char but expected is restricted __le16.
+Warning reported by sparse. Part of eudyptula challenge.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ drivers/staging/wilc1000/wilc_wfi_cfgoperations.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/staging/wilc1000/wilc_wfi_cfgoperations.c b/drivers/staging/wilc1000/wilc_wfi_cfgoperations.c
+index e248702ee519..745bf5ca2622 100644
+--- a/drivers/staging/wilc1000/wilc_wfi_cfgoperations.c
++++ b/drivers/staging/wilc1000/wilc_wfi_cfgoperations.c
+@@ -1431,7 +1431,7 @@ void wilc_wfi_p2p_rx(struct net_device *dev, u8 *buff, u32 size)
+ 
+ 	freq = ieee80211_channel_to_frequency(curr_channel, NL80211_BAND_2GHZ);
+ 
+-	if (!ieee80211_is_action(buff[FRAME_TYPE_ID])) {
++	if (!ieee80211_is_action(cpu_to_le16(buff[FRAME_TYPE_ID]))) {
+ 		cfg80211_rx_mgmt(priv->wdev, freq, 0, buff, size, 0);
+ 		return;
+ 	}
+-- 
+2.17.0
+

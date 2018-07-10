@@ -1,0 +1,72 @@
+From de5678015dd3d06c3832de18f0f23ae91ac65cb2 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Sat, 9 Jun 2018 18:45:52 +0530
+Subject: [PATCH] syscalls: Add a new syscall to the kernel called
+ "sys_eudyptula".
+
+Add a new syscall "sys_eudyptula" to the kernel.
+The syscall should take two parameters: int high_id,
+int low_id. The syscall will take the two values,
+mush them together into one 64bit value. Part of
+the eudyptula challenge.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ arch/x86/entry/syscalls/syscall_64.tbl |  2 +-
+ include/linux/syscalls.h               |  2 +-
+ kernel/sys.c                           | 16 ++++++++++++++++
+ 3 files changed, 18 insertions(+), 2 deletions(-)
+
+diff --git a/arch/x86/entry/syscalls/syscall_64.tbl b/arch/x86/entry/syscalls/syscall_64.tbl
+index cd36232ab62f..d34b80870f10 100644
+--- a/arch/x86/entry/syscalls/syscall_64.tbl
++++ b/arch/x86/entry/syscalls/syscall_64.tbl
+@@ -342,7 +342,7 @@
+ 331	common	pkey_free		__x64_sys_pkey_free
+ 332	common	statx			__x64_sys_statx
+ 333	common	io_pgetevents		__x64_sys_io_pgetevents
+-
++334	common	eudyptula		__x64_sys_eudyptula
+ #
+ # x32-specific system call numbers start at 512 to avoid cache impact
+ # for native 64-bit operation. The __x32_compat_sys stubs are created
+diff --git a/include/linux/syscalls.h b/include/linux/syscalls.h
+index 390e814fdc8d..856c9a9d4b57 100644
+--- a/include/linux/syscalls.h
++++ b/include/linux/syscalls.h
+@@ -1108,7 +1108,7 @@ asmlinkage long sys_old_mmap(struct mmap_arg_struct __user *arg);
+  * not implemented -- see kernel/sys_ni.c
+  */
+ asmlinkage long sys_ni_syscall(void);
+-
++asmlinkage long sys_eudyptula(int high_id, int low_id);
+ #endif /* CONFIG_ARCH_HAS_SYSCALL_WRAPPER */
+ 
+ 
+diff --git a/kernel/sys.c b/kernel/sys.c
+index 63ef036cac37..bba899d1068f 100644
+--- a/kernel/sys.c
++++ b/kernel/sys.c
+@@ -2630,3 +2630,19 @@ COMPAT_SYSCALL_DEFINE1(sysinfo, struct compat_sysinfo __user *, info)
+ 	return 0;
+ }
+ #endif /* CONFIG_COMPAT */
++
++SYSCALL_DEFINE2(eudyptula, int, high_id, int, low_id)
++{
++	u64 full_id = 0;
++
++	full_id = high_id;
++
++	full_id <<= 32;
++	full_id |= low_id;
++
++	if (full_id == 1234567890)
++		return 0;
++	else
++		return -1;
++}
++
+-- 
+2.17.0
+

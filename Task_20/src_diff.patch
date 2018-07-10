@@ -1,0 +1,38 @@
+diff --git a/fs/fat/file.c b/fs/fat/file.c
+index 4724cc9ad650..b7bc0801cc1d 100644
+--- a/fs/fat/file.c
++++ b/fs/fat/file.c
+@@ -115,6 +115,12 @@ static int fat_ioctl_set_attributes(struct file *file, u32 __user *user_attr)
+ 	return err;
+ }
+ 
++static int fat_ioctl_set_volume_id(struct inode *inode, u32 __user *user_attr)
++{
++	struct msdos_sb_info *sbi = MSDOS_SB(inode->i_sb);
++	return get_user(sbi->vol_id, user_attr);
++}
++
+ static int fat_ioctl_get_volume_id(struct inode *inode, u32 __user *user_attr)
+ {
+ 	struct msdos_sb_info *sbi = MSDOS_SB(inode->i_sb);
+@@ -133,6 +139,8 @@ long fat_generic_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)
+ 		return fat_ioctl_set_attributes(filp, user_attr);
+ 	case FAT_IOCTL_GET_VOLUME_ID:
+ 		return fat_ioctl_get_volume_id(inode, user_attr);
++	case FAT_IOCTL_SET_VOLUME_ID:
++		return fat_ioctl_set_volume_id(inode, user_attr);
+ 	default:
+ 		return -ENOTTY;	/* Inappropriate ioctl for device */
+ 	}
+diff --git a/include/uapi/linux/msdos_fs.h b/include/uapi/linux/msdos_fs.h
+index fde753735aba..547a1546478e 100644
+--- a/include/uapi/linux/msdos_fs.h
++++ b/include/uapi/linux/msdos_fs.h
+@@ -109,6 +109,7 @@ struct __fat_dirent {
+ #define FAT_IOCTL_SET_ATTRIBUTES	_IOW('r', 0x11, __u32)
+ /*Android kernel has used 0x12, so we use 0x13*/
+ #define FAT_IOCTL_GET_VOLUME_ID		_IOR('r', 0x13, __u32)
++#define FAT_IOCTL_SET_VOLUME_ID		_IOW('r', 0x14, __u32)
+ 
+ struct fat_boot_sector {
+ 	__u8	ignored[3];	/* Boot strap short or near jump */

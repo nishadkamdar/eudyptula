@@ -1,0 +1,29 @@
+From ca790999091e115572e321634931692e0f7a6631 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Thu, 24 May 2018 20:15:40 +0530
+Subject: [PATCH] staging: comedi: comedidev.h: Fix SPDX-License-Identifier tag
+ style
+
+Replace // SPDX-License-Identifier: GPL-2.0+ by
+/* SPDX-License-Identifier: GPL-2.0+ */ as per licensing rule
+for C header files. Issue found by checkpatch. Part of
+Eudyptula Challenge.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ drivers/staging/comedi/comedidev.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/drivers/staging/comedi/comedidev.h b/drivers/staging/comedi/comedidev.h
+index f3474a4ba69e..c54ac94d89d2 100644
+--- a/drivers/staging/comedi/comedidev.h
++++ b/drivers/staging/comedi/comedidev.h
+@@ -1,4 +1,4 @@
+-// SPDX-License-Identifier: GPL-2.0+
++/* SPDX-License-Identifier: GPL-2.0+ */
+ /*
+  * comedidev.h
+  * header file for kernel-only structures, variables, and constants
+-- 
+2.17.0
+

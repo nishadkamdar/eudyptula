@@ -1,0 +1,14 @@
+
+  ERROR: Kernel configuration is invalid.
+         include/generated/autoconf.h or include/config/auto.conf are missing.
+         Run 'make oldconfig && make prepare' on kernel src to fix it.
+
+
+  WARNING: Symbol version dump ./Module.symvers
+           is missing; modules will have no dependencies and modversions.
+
+  Building modules, stage 2.
+scripts/Makefile.modpost:43: include/config/auto.conf: No such file or directory
+make[1]: *** No rule to make target 'include/config/auto.conf'.  Stop.
+Makefile:1502: recipe for target 'modules' failed
+make: *** [modules] Error 2

@@ -1,0 +1,2397 @@
+  CHECK   drivers/staging/dgnc/dgnc_cls.c
+  CHECK   drivers/staging/fwserial/fwserial.c
+  CHECK   drivers/staging/fbtft/fbtft-core.c
+  CHECK   drivers/staging/comedi/drivers/comedi_8254.c
+  CC [M]  drivers/staging/comedi/drivers/comedi_8254.o
+  CHECK   drivers/staging/comedi/drivers/comedi_isadma.c
+drivers/staging/fwserial/fwserial.c:510:21: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:1665:29: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:1665:29: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.h:113:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.h:113:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.h:113:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.h:113:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:2043:29: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:2043:29: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.c:185:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+drivers/staging/fwserial/fwserial.h:356:16: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/fwserial/fwserial.o
+drivers/staging/dgnc/dgnc_cls.c:425:13: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_cls.c:425:13: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/dgnc/dgnc_cls.o
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/comedi_isadma.o
+./include/linux/device.h:678:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/device.h:678:13: warning: call with no type!
+  CC [M]  drivers/staging/fbtft/fbtft-core.o
+  CHECK   drivers/staging/comedi/drivers/comedi_bond.c
+  CHECK   drivers/staging/dgnc/dgnc_driver.c
+  CC [M]  drivers/staging/comedi/drivers/comedi_bond.o
+  CC [M]  drivers/staging/dgnc/dgnc_driver.o
+  CHECK   drivers/staging/fbtft/fbtft-sysfs.c
+  CHECK   drivers/staging/fwserial/dma_fifo.c
+drivers/staging/fwserial/dma_fifo.c:78:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.c:78:26: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.c:154:13: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.c:154:13: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.c:204:17: warning: expression using sizeof(void)
+drivers/staging/fwserial/dma_fifo.c:204:17: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/fwserial/dma_fifo.o
+  CC [M]  drivers/staging/fbtft/fbtft-sysfs.o
+  CHECK   drivers/staging/comedi/drivers/comedi_test.c
+drivers/staging/comedi/drivers/comedi_test.c:317:23: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:317:23: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:324:31: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:324:31: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:332:23: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:332:23: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:337:31: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:337:31: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:574:15: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/comedi_test.c:574:15: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/comedi/drivers/comedi_test.o
+  CHECK   drivers/staging/dgnc/dgnc_tty.c
+  LD [M]  drivers/staging/fwserial/firewire-serial.o
+  CHECK   drivers/staging/comedi/drivers/comedi_parport.c
+  CC [M]  drivers/staging/comedi/drivers/comedi_parport.o
+drivers/staging/dgnc/dgnc_tty.c:1455:17: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:1455:17: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:394:15: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:394:15: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:395:15: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:436:21: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:436:21: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:1330:22: warning: expression using sizeof(void)
+drivers/staging/dgnc/dgnc_tty.c:1330:22: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/dgnc/dgnc_tty.o
+  CHECK   drivers/staging/fbtft/fbtft-bus.c
+drivers/staging/fbtft/fbtft-bus.c:155:27: warning: expression using sizeof(void)
+drivers/staging/fbtft/fbtft-bus.c:155:27: warning: expression using sizeof(void)
+drivers/staging/fbtft/fbtft-bus.c:199:27: warning: expression using sizeof(void)
+drivers/staging/fbtft/fbtft-bus.c:199:27: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/fbtft/fbtft-bus.o
+  CHECK   drivers/staging/comedi/drivers/serial2002.c
+  CHECK   drivers/staging/comedi/drivers/amplc_dio200.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/serial2002.o
+  CC [M]  drivers/staging/comedi/drivers/amplc_dio200.o
+  CHECK   drivers/staging/fbtft/fbtft-io.c
+  CHECK   drivers/staging/comedi/drivers/amplc_pc236.c
+  LD [M]  drivers/staging/dgnc/dgnc.o
+  CC [M]  drivers/staging/fbtft/fbtft-io.o
+  CHECK   drivers/staging/gdm724x/gdm_lte.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_pc236.o
+  CHECK   drivers/staging/comedi/drivers/amplc_pc263.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_pc263.o
+  CC [M]  drivers/staging/gdm724x/gdm_lte.o
+  CHECK   drivers/staging/comedi/drivers/pcl711.c
+  CHECK   drivers/staging/fbtft/fb_agm1264k-fl.c
+  CC [M]  drivers/staging/comedi/drivers/pcl711.o
+  CHECK   drivers/staging/comedi/drivers/pcl724.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/fbtft/fb_agm1264k-fl.o
+  CC [M]  drivers/staging/comedi/drivers/pcl724.o
+  CHECK   drivers/staging/comedi/drivers/pcl726.c
+  CC [M]  drivers/staging/comedi/drivers/pcl726.o
+  CHECK   drivers/staging/fbtft/fb_bd663474.c
+  CHECK   drivers/staging/gdm724x/netlink_k.c
+  CC [M]  drivers/staging/fbtft/fb_bd663474.o
+  CHECK   drivers/staging/fbtft/fb_hx8340bn.c
+  CC [M]  drivers/staging/gdm724x/netlink_k.o
+  CC [M]  drivers/staging/fbtft/fb_hx8340bn.o
+  CHECK   drivers/staging/comedi/drivers/pcl730.c
+  CC [M]  drivers/staging/comedi/drivers/pcl730.o
+  CHECK   drivers/staging/fbtft/fb_hx8347d.c
+  CC [M]  drivers/staging/fbtft/fb_hx8347d.o
+  CHECK   drivers/staging/fbtft/fb_hx8353d.c
+  CC [M]  drivers/staging/fbtft/fb_hx8353d.o
+  CHECK   drivers/staging/gdm724x/gdm_usb.c
+  CHECK   drivers/staging/comedi/drivers/pcl812.c
+  CC [M]  drivers/staging/comedi/drivers/pcl812.o
+  CC [M]  drivers/staging/gdm724x/gdm_usb.o
+  CHECK   drivers/staging/fbtft/fb_hx8357d.c
+  CC [M]  drivers/staging/fbtft/fb_hx8357d.o
+  CHECK   drivers/staging/fbtft/fb_ili9163.c
+  CC [M]  drivers/staging/fbtft/fb_ili9163.o
+  CHECK   drivers/staging/comedi/drivers/pcl816.c
+  CC [M]  drivers/staging/comedi/drivers/pcl816.o
+  CHECK   drivers/staging/fbtft/fb_ili9320.c
+  CHECK   drivers/staging/gdm724x/gdm_endian.c
+  CC [M]  drivers/staging/fbtft/fb_ili9320.o
+  CC [M]  drivers/staging/gdm724x/gdm_endian.o
+  CHECK   drivers/staging/greybus/core.c
+  CHECK   drivers/staging/gdm724x/gdm_tty.c
+drivers/staging/gdm724x/gdm_tty.c:178:31: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/gdm724x/gdm_tty.o
+  CHECK   drivers/staging/comedi/drivers/pcl818.c
+  CHECK   drivers/staging/gdm724x/gdm_mux.c
+  CC [M]  drivers/staging/greybus/core.o
+  CC [M]  drivers/staging/comedi/drivers/pcl818.o
+  CHECK   drivers/staging/fbtft/fb_ili9325.c
+drivers/staging/gdm724x/gdm_mux.c:427:16: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/gdm724x/gdm_mux.o
+  CC [M]  drivers/staging/fbtft/fb_ili9325.o
+  LD [M]  drivers/staging/gdm724x/gdmulte.o
+  LD [M]  drivers/staging/gdm724x/gdmtty.o
+  CHECK   drivers/staging/comedi/drivers/pcm3724.c
+  CHECK   drivers/staging/gs_fpgaboot/gs_fpgaboot.c
+  CHECK   drivers/staging/fbtft/fb_ili9340.c
+  CC [M]  drivers/staging/comedi/drivers/pcm3724.o
+  CC [M]  drivers/staging/gs_fpgaboot/gs_fpgaboot.o
+  CC [M]  drivers/staging/fbtft/fb_ili9340.o
+  CHECK   drivers/staging/greybus/debugfs.c
+  CC [M]  drivers/staging/greybus/debugfs.o
+  CHECK   drivers/staging/gs_fpgaboot/io.c
+  CHECK   drivers/staging/comedi/drivers/rti800.c
+  CC [M]  drivers/staging/gs_fpgaboot/io.o
+  CC [M]  drivers/staging/comedi/drivers/rti800.o
+  CHECK   drivers/staging/fbtft/fb_ili9341.c
+  CHECK   drivers/staging/greybus/hd.c
+  CC [M]  drivers/staging/fbtft/fb_ili9341.o
+  CC [M]  drivers/staging/greybus/hd.o
+  LD [M]  drivers/staging/gs_fpgaboot/gs_fpga.o
+  AR      drivers/staging/iio/accel/built-in.a
+  CHECK   drivers/staging/iio/accel/adis16203.c
+  CHECK   drivers/staging/comedi/drivers/rti802.c
+  CC [M]  drivers/staging/comedi/drivers/rti802.o
+  CC [M]  drivers/staging/iio/accel/adis16203.o
+  CHECK   drivers/staging/fbtft/fb_ili9481.c
+  CC [M]  drivers/staging/fbtft/fb_ili9481.o
+  CHECK   drivers/staging/greybus/manifest.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/greybus/manifest.o
+  CHECK   drivers/staging/comedi/drivers/dac02.c
+  CHECK   drivers/staging/iio/accel/adis16240.c
+  CC [M]  drivers/staging/comedi/drivers/dac02.o
+  CC [M]  drivers/staging/iio/accel/adis16240.o
+  CHECK   drivers/staging/fbtft/fb_ili9486.c
+  CC [M]  drivers/staging/fbtft/fb_ili9486.o
+  CHECK   drivers/staging/greybus/module.c
+  CHECK   drivers/staging/comedi/drivers/das16m1.c
+./include/linux/overflow.h:254:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/overflow.h:254:13: error: incorrect type in conditional
+./include/linux/overflow.h:254:13:    got void
+./include/linux/overflow.h:256:13: error: undefined identifier '__builtin_add_overflow'
+./include/linux/overflow.h:256:13: error: incorrect type in conditional
+./include/linux/overflow.h:256:13:    got void
+./include/linux/overflow.h:254:13: warning: call with no type!
+./include/linux/overflow.h:256:13: warning: call with no type!
+  CC [M]  drivers/staging/greybus/module.o
+  CC [M]  drivers/staging/comedi/drivers/das16m1.o
+  AR      drivers/staging/iio/adc/built-in.a
+  CHECK   drivers/staging/iio/adc/ad7606_par.c
+  CC [M]  drivers/staging/iio/adc/ad7606_par.o
+  CHECK   drivers/staging/fbtft/fb_pcd8544.c
+  CC [M]  drivers/staging/fbtft/fb_pcd8544.o
+  CHECK   drivers/staging/greybus/interface.c
+  CHECK   drivers/staging/iio/adc/ad7606_spi.c
+  CHECK   drivers/staging/comedi/drivers/das08_isa.c
+  CC [M]  drivers/staging/greybus/interface.o
+  CC [M]  drivers/staging/iio/adc/ad7606_spi.o
+  CC [M]  drivers/staging/comedi/drivers/das08_isa.o
+  CHECK   drivers/staging/fbtft/fb_ra8875.c
+drivers/staging/fbtft/fb_ra8875.c:267:27: warning: expression using sizeof(void)
+drivers/staging/fbtft/fb_ra8875.c:267:27: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/fbtft/fb_ra8875.o
+  CHECK   drivers/staging/comedi/drivers/das16.c
+  CHECK   drivers/staging/iio/adc/ad7606.c
+  CC [M]  drivers/staging/comedi/drivers/das16.o
+  CC [M]  drivers/staging/iio/adc/ad7606.o
+  CHECK   drivers/staging/greybus/bundle.c
+  CHECK   drivers/staging/fbtft/fb_s6d02a1.c
+  CC [M]  drivers/staging/greybus/bundle.o
+  CHECK   drivers/staging/iio/adc/ad7780.c
+  CC [M]  drivers/staging/fbtft/fb_s6d02a1.o
+  CC [M]  drivers/staging/iio/adc/ad7780.o
+  CHECK   drivers/staging/comedi/drivers/das800.c
+  CC [M]  drivers/staging/comedi/drivers/das800.o
+  CHECK   drivers/staging/greybus/connection.c
+  CHECK   drivers/staging/fbtft/fb_s6d1121.c
+  CC [M]  drivers/staging/fbtft/fb_s6d1121.o
+  CC [M]  drivers/staging/greybus/connection.o
+  CHECK   drivers/staging/iio/adc/ad7816.c
+  CC [M]  drivers/staging/iio/adc/ad7816.o
+  CHECK   drivers/staging/comedi/drivers/das1800.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/das1800.o
+  CHECK   drivers/staging/fbtft/fb_sh1106.c
+  CC [M]  drivers/staging/fbtft/fb_sh1106.o
+  CHECK   drivers/staging/iio/adc/ad7192.c
+  CHECK   drivers/staging/greybus/control.c
+  CC [M]  drivers/staging/iio/adc/ad7192.o
+  CC [M]  drivers/staging/greybus/control.o
+  CHECK   drivers/staging/comedi/drivers/das6402.c
+  CHECK   drivers/staging/fbtft/fb_ssd1289.c
+  CC [M]  drivers/staging/comedi/drivers/das6402.o
+  CC [M]  drivers/staging/fbtft/fb_ssd1289.o
+  CHECK   drivers/staging/iio/adc/ad7280a.c
+  CHECK   drivers/staging/greybus/svc.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+drivers/staging/iio/adc/ad7280a.c:662:15: warning: expression using sizeof(void)
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/iio/adc/ad7280a.o
+  CC [M]  drivers/staging/greybus/svc.o
+  CHECK   drivers/staging/comedi/drivers/dt2801.c
+  CHECK   drivers/staging/fbtft/fb_ssd1305.c
+  CC [M]  drivers/staging/comedi/drivers/dt2801.o
+  CC [M]  drivers/staging/fbtft/fb_ssd1305.o
+  CHECK   drivers/staging/greybus/svc_watchdog.c
+  AR      drivers/staging/iio/addac/built-in.a
+  CHECK   drivers/staging/iio/addac/adt7316.c
+  CHECK   drivers/staging/comedi/drivers/dt2811.c
+  CC [M]  drivers/staging/greybus/svc_watchdog.o
+  CC [M]  drivers/staging/iio/addac/adt7316.o
+  CC [M]  drivers/staging/comedi/drivers/dt2811.o
+  CHECK   drivers/staging/fbtft/fb_ssd1306.c
+  CC [M]  drivers/staging/fbtft/fb_ssd1306.o
+  CHECK   drivers/staging/greybus/operation.c
+  CHECK   drivers/staging/comedi/drivers/dt2814.c
+  CC [M]  drivers/staging/greybus/operation.o
+  CHECK   drivers/staging/fbtft/fb_ssd1325.c
+  CC [M]  drivers/staging/comedi/drivers/dt2814.o
+  CC [M]  drivers/staging/fbtft/fb_ssd1325.o
+  CHECK   drivers/staging/iio/addac/adt7316-spi.c
+  CC [M]  drivers/staging/iio/addac/adt7316-spi.o
+  CHECK   drivers/staging/comedi/drivers/dt2815.c
+  CC [M]  drivers/staging/comedi/drivers/dt2815.o
+  CHECK   drivers/staging/fbtft/fb_ssd1331.c
+  CHECK   drivers/staging/iio/addac/adt7316-i2c.c
+  CHECK   drivers/staging/greybus/es2.c
+  CC [M]  drivers/staging/fbtft/fb_ssd1331.o
+  CC [M]  drivers/staging/iio/addac/adt7316-i2c.o
+  CC [M]  drivers/staging/greybus/es2.o
+  CHECK   drivers/staging/comedi/drivers/dt2817.c
+  CC [M]  drivers/staging/comedi/drivers/dt2817.o
+  AR      drivers/staging/iio/cdc/built-in.a
+  CHECK   drivers/staging/iio/cdc/ad7150.c
+  CC [M]  drivers/staging/iio/cdc/ad7150.o
+  CHECK   drivers/staging/fbtft/fb_ssd1351.c
+  CC [M]  drivers/staging/fbtft/fb_ssd1351.o
+  CHECK   drivers/staging/comedi/drivers/dt282x.c
+  CC [M]  drivers/staging/comedi/drivers/dt282x.o
+  CHECK   drivers/staging/greybus/bootrom.c
+  CHECK   drivers/staging/iio/cdc/ad7152.c
+  CC [M]  drivers/staging/greybus/bootrom.o
+  CC [M]  drivers/staging/iio/cdc/ad7152.o
+  CHECK   drivers/staging/fbtft/fb_st7735r.c
+  CC [M]  drivers/staging/fbtft/fb_st7735r.o
+  CHECK   drivers/staging/iio/cdc/ad7746.c
+  CHECK   drivers/staging/greybus/fw-core.c
+  CHECK   drivers/staging/comedi/drivers/dmm32at.c
+  CC [M]  drivers/staging/iio/cdc/ad7746.o
+  CC [M]  drivers/staging/greybus/fw-core.o
+  CC [M]  drivers/staging/comedi/drivers/dmm32at.o
+  CHECK   drivers/staging/fbtft/fb_st7789v.c
+  CC [M]  drivers/staging/fbtft/fb_st7789v.o
+  AR      drivers/staging/iio/frequency/built-in.a
+  CHECK   drivers/staging/iio/frequency/ad9832.c
+  CHECK   drivers/staging/greybus/fw-download.c
+  CC [M]  drivers/staging/iio/frequency/ad9832.o
+  CHECK   drivers/staging/comedi/drivers/fl512.c
+  CC [M]  drivers/staging/greybus/fw-download.o
+  CC [M]  drivers/staging/comedi/drivers/fl512.o
+  CHECK   drivers/staging/fbtft/fb_tinylcd.c
+  CC [M]  drivers/staging/fbtft/fb_tinylcd.o
+  CHECK   drivers/staging/iio/frequency/ad9834.c
+  CHECK   drivers/staging/comedi/drivers/aio_aio12_8.c
+  CHECK   drivers/staging/greybus/fw-management.c
+  CC [M]  drivers/staging/iio/frequency/ad9834.o
+  CC [M]  drivers/staging/comedi/drivers/aio_aio12_8.o
+  CC [M]  drivers/staging/greybus/fw-management.o
+  CHECK   drivers/staging/fbtft/fb_tls8204.c
+  CC [M]  drivers/staging/fbtft/fb_tls8204.o
+  CHECK   drivers/staging/comedi/drivers/aio_iiro_16.c
+  AR      drivers/staging/iio/gyro/built-in.a
+  CHECK   drivers/staging/iio/gyro/adis16060_core.c
+  CHECK   drivers/staging/greybus/authentication.c
+  CC [M]  drivers/staging/comedi/drivers/aio_iiro_16.o
+  CC [M]  drivers/staging/greybus/authentication.o
+  CC [M]  drivers/staging/iio/gyro/adis16060_core.o
+  CHECK   drivers/staging/fbtft/fb_uc1611.c
+  CC [M]  drivers/staging/fbtft/fb_uc1611.o
+  CHECK   drivers/staging/comedi/drivers/ii_pci20kc.c
+  CC [M]  drivers/staging/comedi/drivers/ii_pci20kc.o
+  CHECK   drivers/staging/greybus/spilib.c
+  LD [M]  drivers/staging/iio/gyro/adis16060.o
+  AR      drivers/staging/iio/impedance-analyzer/built-in.a
+  CHECK   drivers/staging/iio/impedance-analyzer/ad5933.c
+  CC [M]  drivers/staging/greybus/spilib.o
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:450:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+drivers/staging/iio/impedance-analyzer/ad5933.c:465:23: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/iio/impedance-analyzer/ad5933.o
+  CHECK   drivers/staging/fbtft/fb_uc1701.c
+  CC [M]  drivers/staging/fbtft/fb_uc1701.o
+  CHECK   drivers/staging/comedi/drivers/c6xdigio.c
+  CC [M]  drivers/staging/comedi/drivers/c6xdigio.o
+  CHECK   drivers/staging/greybus/hid.c
+  AR      drivers/staging/iio/meter/built-in.a
+  CHECK   drivers/staging/iio/meter/ade7854.c
+  CC [M]  drivers/staging/iio/meter/ade7854.o
+  CC [M]  drivers/staging/greybus/hid.o
+  CHECK   drivers/staging/fbtft/fb_upd161704.c
+  CC [M]  drivers/staging/fbtft/fb_upd161704.o
+  CHECK   drivers/staging/comedi/drivers/mpc624.c
+  CHECK   drivers/staging/iio/meter/ade7854-i2c.c
+  CC [M]  drivers/staging/comedi/drivers/mpc624.o
+  CC [M]  drivers/staging/iio/meter/ade7854-i2c.o
+  CHECK   drivers/staging/greybus/light.c
+  CHECK   drivers/staging/fbtft/fb_watterott.c
+  CHECK   drivers/staging/iio/meter/ade7854-spi.c
+  CC [M]  drivers/staging/fbtft/fb_watterott.o
+  CHECK   drivers/staging/comedi/drivers/adq12b.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+  CC [M]  drivers/staging/iio/meter/ade7854-spi.o
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/greybus/light.o
+  CC [M]  drivers/staging/comedi/drivers/adq12b.o
+  CHECK   drivers/staging/fbtft/flexfb.c
+  AR      drivers/staging/iio/resolver/built-in.a
+  CHECK   drivers/staging/comedi/drivers/ni_at_a2150.c
+  CHECK   drivers/staging/iio/resolver/ad2s90.c
+  CC [M]  drivers/staging/comedi/drivers/ni_at_a2150.o
+  CC [M]  drivers/staging/fbtft/flexfb.o
+  CC [M]  drivers/staging/iio/resolver/ad2s90.o
+  CHECK   drivers/staging/greybus/log.c
+  CC [M]  drivers/staging/greybus/log.o
+  CHECK   drivers/staging/iio/resolver/ad2s1210.c
+  CHECK   drivers/staging/comedi/drivers/ni_at_ao.c
+  CC [M]  drivers/staging/iio/resolver/ad2s1210.o
+  CHECK   drivers/staging/fbtft/fbtft_device.c
+  CHECK   drivers/staging/greybus/loopback.c
+  CC [M]  drivers/staging/comedi/drivers/ni_at_ao.o
+  CC [M]  drivers/staging/fbtft/fbtft_device.o
+  CC [M]  drivers/staging/greybus/loopback.o
+  CHECK   drivers/staging/comedi/drivers/ni_atmio.c
+  AR      drivers/staging/iio/built-in.a
+  CC [M]  drivers/staging/comedi/drivers/ni_atmio.o
+  CHECK   drivers/staging/ks7010/michael_mic.c
+  CC [M]  drivers/staging/ks7010/michael_mic.o
+  LD [M]  drivers/staging/fbtft/fbtft.o
+  CHECK   drivers/staging/ks7010/ks_hostif.c
+  CHECK   drivers/staging/media/bcm2048/radio-bcm2048.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/media/bcm2048/radio-bcm2048.o
+  CC [M]  drivers/staging/ks7010/ks_hostif.o
+  CHECK   drivers/staging/greybus/power_supply.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/greybus/power_supply.o
+  CHECK   drivers/staging/greybus/raw.c
+  CC [M]  drivers/staging/greybus/raw.o
+  CHECK   drivers/staging/media/imx074/imx074.c
+  CHECK   drivers/staging/comedi/drivers/ni_atmio16d.c
+  CHECK   drivers/staging/ks7010/ks_wlan_net.c
+  CC [M]  drivers/staging/media/imx074/imx074.o
+  CC [M]  drivers/staging/comedi/drivers/ni_atmio16d.o
+  CHECK   drivers/staging/greybus/vibrator.c
+  CC [M]  drivers/staging/ks7010/ks_wlan_net.o
+  CC [M]  drivers/staging/greybus/vibrator.o
+  CHECK   drivers/staging/comedi/drivers/ni_labpc.c
+  CHECK   drivers/staging/greybus/audio_gb.c
+  CC [M]  drivers/staging/comedi/drivers/ni_labpc.o
+  CHECK   drivers/staging/media/mt9t031/mt9t031.c
+drivers/staging/media/mt9t031/mt9t031.c:192:16: warning: expression using sizeof(void)
+drivers/staging/media/mt9t031/mt9t031.c:192:16: warning: expression using sizeof(void)
+drivers/staging/media/mt9t031/mt9t031.c:210:16: warning: expression using sizeof(void)
+drivers/staging/media/mt9t031/mt9t031.c:211:16: warning: expression using sizeof(void)
+drivers/staging/media/mt9t031/mt9t031.c:574:16: warning: expression using sizeof(void)
+drivers/staging/media/mt9t031/mt9t031.c:575:16: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/media/mt9t031/mt9t031.o
+  CC [M]  drivers/staging/greybus/audio_gb.o
+  CHECK   drivers/staging/comedi/drivers/pcmad.c
+  CC [M]  drivers/staging/comedi/drivers/pcmad.o
+  CHECK   drivers/staging/ks7010/ks7010_sdio.c
+  CHECK   drivers/staging/greybus/audio_apbridgea.c
+  CHECK   drivers/staging/media/zoran/zoran_procfs.c
+  CC [M]  drivers/staging/ks7010/ks7010_sdio.o
+  CC [M]  drivers/staging/greybus/audio_apbridgea.o
+  CC [M]  drivers/staging/media/zoran/zoran_procfs.o
+  CHECK   drivers/staging/comedi/drivers/pcmda12.c
+  CC [M]  drivers/staging/comedi/drivers/pcmda12.o
+  CHECK   drivers/staging/greybus/audio_manager.c
+  CC [M]  drivers/staging/greybus/audio_manager.o
+  CHECK   drivers/staging/media/zoran/zoran_device.c
+  CHECK   drivers/staging/comedi/drivers/pcmmio.c
+  LD [M]  drivers/staging/ks7010/ks7010.o
+  CC [M]  drivers/staging/comedi/drivers/pcmmio.o
+  CC [M]  drivers/staging/media/zoran/zoran_device.o
+  CHECK   drivers/staging/most/core.c
+  CHECK   drivers/staging/greybus/audio_manager_module.c
+drivers/staging/most/core.c:740:26: warning: expression using sizeof(void)
+drivers/staging/most/core.c:785:26: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/most/core.o
+  CC [M]  drivers/staging/greybus/audio_manager_module.o
+  CHECK   drivers/staging/greybus/gbphy.c
+  CHECK   drivers/staging/comedi/drivers/pcmuio.c
+  CC [M]  drivers/staging/greybus/gbphy.o
+  CC [M]  drivers/staging/comedi/drivers/pcmuio.o
+  CHECK   drivers/staging/media/zoran/zoran_driver.c
+  LD [M]  drivers/staging/most/most_core.o
+  CHECK   drivers/staging/greybus/gpio.c
+  CC [M]  drivers/staging/media/zoran/zoran_driver.o
+  CHECK   drivers/staging/mt29f_spinand/mt29f_spinand.c
+  CHECK   drivers/staging/comedi/drivers/multiq3.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/greybus/gpio.o
+  CC [M]  drivers/staging/comedi/drivers/multiq3.o
+  CC [M]  drivers/staging/mt29f_spinand/mt29f_spinand.o
+  CHECK   drivers/staging/comedi/drivers/s526.c
+  CC [M]  drivers/staging/comedi/drivers/s526.o
+  CHECK   drivers/staging/greybus/i2c.c
+  CC [M]  drivers/staging/greybus/i2c.o
+  CHECK   drivers/staging/pi433/pi433_if.c
+  CC [M]  drivers/staging/pi433/pi433_if.o
+  CHECK   drivers/staging/comedi/drivers/8255_pci.c
+  CHECK   drivers/staging/media/zoran/zoran_card.c
+  CHECK   drivers/staging/greybus/pwm.c
+  CC [M]  drivers/staging/comedi/drivers/8255_pci.o
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:794:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:798:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:802:44: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:807:52: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:819:47: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+drivers/staging/media/zoran/zoran_card.c:823:48: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/media/zoran/zoran_card.o
+  CC [M]  drivers/staging/greybus/pwm.o
+  CHECK   drivers/staging/comedi/drivers/addi_watchdog.c
+  CHECK   drivers/staging/pi433/rf69.c
+  CC [M]  drivers/staging/comedi/drivers/addi_watchdog.o
+  CC [M]  drivers/staging/pi433/rf69.o
+  CHECK   drivers/staging/greybus/sdio.c
+drivers/staging/greybus/sdio.c:137:20: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:137:20: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:140:17: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:140:17: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:141:17: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:386:23: warning: expression using sizeof(void)
+drivers/staging/greybus/sdio.c:386:23: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/greybus/sdio.o
+  CHECK   drivers/staging/media/zoran/videocodec.c
+  CHECK   drivers/staging/comedi/drivers/addi_apci_1032.c
+  CC [M]  drivers/staging/media/zoran/videocodec.o
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_1032.o
+  LD [M]  drivers/staging/pi433/pi433.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_ap.c
+  CHECK   drivers/staging/media/zoran/zr36050.c
+  CHECK   drivers/staging/greybus/spi.c
+  CC [M]  drivers/staging/media/zoran/zr36050.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_1500.c
+  CC [M]  drivers/staging/greybus/spi.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_ap.o
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_1500.o
+  CHECK   drivers/staging/media/zoran/zr36016.c
+  CC [M]  drivers/staging/media/zoran/zr36016.o
+  LD [M]  drivers/staging/greybus/gb-spilib.o
+  CHECK   drivers/staging/greybus/uart.c
+  CC [M]  drivers/staging/greybus/uart.o
+  CHECK   drivers/staging/media/zoran/zr36060.c
+  CHECK   drivers/staging/comedi/drivers/addi_apci_1516.c
+  CC [M]  drivers/staging/media/zoran/zr36060.o
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_1516.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_cmd.c
+  LD [M]  drivers/staging/media/zoran/zr36067.o
+  AR      drivers/staging/media/built-in.a
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8192E_dev.c
+  CHECK   drivers/staging/greybus/usb.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_cmd.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_1564.c
+  CC [M]  drivers/staging/greybus/usb.o
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_1564.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8192E_dev.o
+  LD [M]  drivers/staging/greybus/greybus.o
+  LD [M]  drivers/staging/greybus/gb-es2.o
+  LD [M]  drivers/staging/greybus/gb-bootrom.o
+  LD [M]  drivers/staging/greybus/gb-firmware.o
+  LD [M]  drivers/staging/greybus/gb-hid.o
+  LD [M]  drivers/staging/greybus/gb-light.o
+  LD [M]  drivers/staging/greybus/gb-log.o
+  LD [M]  drivers/staging/greybus/gb-loopback.o
+  LD [M]  drivers/staging/greybus/gb-power-supply.o
+  LD [M]  drivers/staging/greybus/gb-raw.o
+  LD [M]  drivers/staging/greybus/gb-vibrator.o
+  LD [M]  drivers/staging/greybus/gb-audio-gb.o
+  LD [M]  drivers/staging/greybus/gb-audio-apbridgea.o
+  LD [M]  drivers/staging/greybus/gb-audio-manager.o
+  LD [M]  drivers/staging/greybus/gb-gbphy.o
+  LD [M]  drivers/staging/greybus/gb-gpio.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_16xx.c
+  LD [M]  drivers/staging/greybus/gb-i2c.o
+  LD [M]  drivers/staging/greybus/gb-pwm.o
+  LD [M]  drivers/staging/greybus/gb-sdio.o
+  LD [M]  drivers/staging/greybus/gb-spi.o
+  LD [M]  drivers/staging/greybus/gb-uart.o
+  LD [M]  drivers/staging/greybus/gb-usb.o
+  CHECK   drivers/staging/rtl8192u/r8192U_core.c
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_16xx.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_debug.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8192u/r8192U_core.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_debug.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_2032.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8192E_phy.c
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_2032.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8192E_phy.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_efuse.c
+drivers/staging/rtl8188eu/core/rtw_efuse.c:265:33: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/core/rtw_efuse.c:265:33: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_efuse.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_2200.c
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_2200.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8192E_firmware.c
+  CHECK   drivers/staging/comedi/drivers/addi_apci_3120.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8192E_firmware.o
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_3120.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_ieee80211.c
+  CHECK   drivers/staging/rtl8192u/r8180_93cx6.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_ieee80211.o
+  CC [M]  drivers/staging/rtl8192u/r8180_93cx6.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_3501.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8192E_cmdpkt.c
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_3501.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8192E_cmdpkt.o
+  CHECK   drivers/staging/rtl8192u/r8192U_wx.c
+  CC [M]  drivers/staging/rtl8192u/r8192U_wx.o
+  CHECK   drivers/staging/comedi/drivers/addi_apci_3xxx.c
+  CHECK   drivers/staging/rtl8188eu/core/rtw_ioctl_set.c
+  CC [M]  drivers/staging/comedi/drivers/addi_apci_3xxx.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8192E_hwimg.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8192E_hwimg.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_ioctl_set.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/r8190P_rtl8256.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/r8190P_rtl8256.o
+  CHECK   drivers/staging/comedi/drivers/adl_pci6208.c
+  CHECK   drivers/staging/rtl8192u/r8190_rtl8256.c
+  CC [M]  drivers/staging/comedi/drivers/adl_pci6208.o
+  CC [M]  drivers/staging/rtl8192u/r8190_rtl8256.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_iol.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_cam.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_iol.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_cam.o
+  CHECK   drivers/staging/comedi/drivers/adl_pci7x3x.c
+drivers/staging/comedi/drivers/adl_pci7x3x.c:175:25: warning: expression using sizeof(void)
+drivers/staging/comedi/drivers/adl_pci7x3x.c:208:25: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/comedi/drivers/adl_pci7x3x.o
+  CHECK   drivers/staging/rtl8192u/r819xU_phy.c
+  CC [M]  drivers/staging/rtl8192u/r819xU_phy.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_led.c
+  CHECK   drivers/staging/comedi/drivers/adl_pci8164.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_core.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_led.o
+  CC [M]  drivers/staging/comedi/drivers/adl_pci8164.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_core.o
+  CHECK   drivers/staging/comedi/drivers/adl_pci9111.c
+  CC [M]  drivers/staging/comedi/drivers/adl_pci9111.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_mlme.c
+  CHECK   drivers/staging/rtl8192u/r819xU_firmware.c
+  CC [M]  drivers/staging/rtl8192u/r819xU_firmware.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_mlme.o
+  CHECK   drivers/staging/comedi/drivers/adl_pci9118.c
+  CC [M]  drivers/staging/comedi/drivers/adl_pci9118.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_dm.c
+  CHECK   drivers/staging/rtl8192u/r819xU_cmdpkt.c
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtl8192e/rtl_dm.c:1522:38: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_dm.o
+  CC [M]  drivers/staging/rtl8192u/r819xU_cmdpkt.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_mlme_ext.c
+  CHECK   drivers/staging/comedi/drivers/adv_pci1710.c
+drivers/staging/rtl8188eu/core/rtw_mlme_ext.c:419:58: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/core/rtw_mlme_ext.c:579:66: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/core/rtw_mlme_ext.c:3178:36: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/comedi/drivers/adv_pci1710.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_mlme_ext.o
+  CHECK   drivers/staging/rtl8192u/r8192U_dm.c
+  CC [M]  drivers/staging/rtl8192u/r8192U_dm.o
+  CHECK   drivers/staging/comedi/drivers/adv_pci1720.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_eeprom.c
+  CC [M]  drivers/staging/comedi/drivers/adv_pci1720.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_eeprom.o
+  CHECK   drivers/staging/comedi/drivers/adv_pci1723.c
+  CC [M]  drivers/staging/comedi/drivers/adv_pci1723.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_ethtool.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_ethtool.o
+  CHECK   drivers/staging/comedi/drivers/adv_pci1724.c
+  CHECK   drivers/staging/rtl8192u/r819xU_firmware_img.c
+  CC [M]  drivers/staging/rtl8192u/r819xU_firmware_img.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_crypt.c
+  CC [M]  drivers/staging/comedi/drivers/adv_pci1724.o
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_crypt.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_pwrctrl.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_pwrctrl.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_pci.c
+  CHECK   drivers/staging/comedi/drivers/adv_pci1760.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_pci.o
+  CC [M]  drivers/staging/comedi/drivers/adv_pci1760.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c
+drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c:345:17: warning: Variable length array is used.
+drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c:423:17: warning: Variable length array is used.
+drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.c:506:9: warning: Variable length array is used.
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_tkip.o
+  CHECK   drivers/staging/comedi/drivers/adv_pci_dio.c
+  CHECK   drivers/staging/rtl8188eu/core/rtw_recv.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_pm.c
+  CC [M]  drivers/staging/comedi/drivers/adv_pci_dio.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_recv.o
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_pm.o
+  CHECK   drivers/staging/comedi/drivers/amplc_dio200_pci.c
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_ccmp.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_dio200_pci.o
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_ccmp.o
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_ps.c
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_ps.o
+  CHECK   drivers/staging/comedi/drivers/amplc_pci236.c
+  CHECK   drivers/staging/rtl8188eu/core/rtw_rf.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_pci236.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_rf.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_wep.c
+  CHECK   drivers/staging/comedi/drivers/amplc_pci263.c
+  CHECK   drivers/staging/rtl8192e/rtl8192e/rtl_wx.c
+drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_wep.c:131:17: warning: Variable length array is used.
+drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_wep.c:196:17: warning: Variable length array is used.
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_crypt_wep.o
+  CC [M]  drivers/staging/comedi/drivers/amplc_pci263.o
+drivers/staging/rtl8192e/rtl8192e/rtl_wx.c:542:29: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192e/rtl8192e/rtl_wx.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_security.c
+  CHECK   drivers/staging/comedi/drivers/amplc_pci224.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_security.o
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/amplc_pci224.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1643:45: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1658:46: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1685:49: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1787:55: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1813:65: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1835:66: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1857:70: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1983:47: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:1993:41: warning: expression using sizeof(void)
+drivers/staging/rtl8192u/ieee80211/ieee80211_rx.c:2013:42: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_rx.o
+  LD [M]  drivers/staging/rtl8192e/rtl8192e/r8192e_pci.o
+  CHECK   drivers/staging/rtl8192e/dot11d.c
+  CC [M]  drivers/staging/rtl8192e/dot11d.o
+  CHECK   drivers/staging/comedi/drivers/amplc_pci230.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_pci230.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_sreset.c
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_sreset.o
+  CHECK   drivers/staging/rtl8192e/rtllib_module.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8192e/rtllib_module.o
+  CHECK   drivers/staging/comedi/drivers/contec_pci_dio.c
+  CHECK   drivers/staging/rtl8188eu/core/rtw_sta_mgt.c
+  CC [M]  drivers/staging/comedi/drivers/contec_pci_dio.o
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_sta_mgt.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_softmac.c
+  CHECK   drivers/staging/rtl8192e/rtllib_rx.c
+  CHECK   drivers/staging/comedi/drivers/das08_pci.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_softmac.o
+  CC [M]  drivers/staging/comedi/drivers/das08_pci.o
+drivers/staging/rtl8192e/rtllib_rx.c:1684:40: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1842:39: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1861:42: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1865:61: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1887:43: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1891:62: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:1905:46: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2021:39: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2032:26: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2035:34: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2087:45: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2101:46: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2129:49: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2225:47: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_rx.c:2243:42: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192e/rtllib_rx.o
+  CHECK   drivers/staging/rtl8188eu/core/rtw_wlan_util.c
+  CHECK   drivers/staging/comedi/drivers/dt3000.c
+drivers/staging/rtl8188eu/core/rtw_wlan_util.c:1218:23: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/core/rtw_wlan_util.c:1232:23: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_wlan_util.o
+  CC [M]  drivers/staging/comedi/drivers/dt3000.o
+  CHECK   drivers/staging/comedi/drivers/dyna_pci10xx.c
+  CC [M]  drivers/staging/comedi/drivers/dyna_pci10xx.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_tx.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_tx.o
+  CHECK   drivers/staging/comedi/drivers/gsc_hpdi.c
+  CHECK   drivers/staging/rtl8188eu/core/rtw_xmit.c
+  CC [M]  drivers/staging/comedi/drivers/gsc_hpdi.o
+  CHECK   drivers/staging/rtl8192e/rtllib_tx.c
+drivers/staging/rtl8188eu/core/rtw_xmit.c:1037:26: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/core/rtw_xmit.c:1037:26: warning: expression using sizeof(void)
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8188eu/core/rtw_xmit.o
+  CC [M]  drivers/staging/rtl8192e/rtllib_tx.o
+  CHECK   drivers/staging/comedi/drivers/icp_multi.c
+  CC [M]  drivers/staging/comedi/drivers/icp_multi.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_wx.c
+drivers/staging/rtl8192u/ieee80211/ieee80211_wx.c:83:37: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_wx.o
+  CHECK   drivers/staging/comedi/drivers/daqboard2000.c
+  CHECK   drivers/staging/rtl8192e/rtllib_wx.c
+  CC [M]  drivers/staging/comedi/drivers/daqboard2000.o
+drivers/staging/rtl8192e/rtllib_wx.c:73:37: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_wx.c:81:37: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_wx.c:509:23: warning: expression using sizeof(void)
+drivers/staging/rtl8192e/rtllib_wx.c:792:44: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192e/rtllib_wx.o
+  CHECK   drivers/staging/rtl8188eu/hal/fw.c
+  CC [M]  drivers/staging/rtl8188eu/hal/fw.o
+  CHECK   drivers/staging/comedi/drivers/jr3_pci.c
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_module.c
+  CC [M]  drivers/staging/comedi/drivers/jr3_pci.o
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_module.o
+  CHECK   drivers/staging/rtl8192e/rtllib_softmac.c
+  CHECK   drivers/staging/rtl8188eu/hal/mac_cfg.c
+  CC [M]  drivers/staging/rtl8192e/rtllib_softmac.o
+  CC [M]  drivers/staging/rtl8188eu/hal/mac_cfg.o
+  CHECK   drivers/staging/comedi/drivers/ke_counter.c
+  CC [M]  drivers/staging/comedi/drivers/ke_counter.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/ieee80211_softmac_wx.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/ieee80211_softmac_wx.o
+  CHECK   drivers/staging/rtl8188eu/hal/bb_cfg.c
+  CHECK   drivers/staging/comedi/drivers/cb_pcidas64.c
+  CC [M]  drivers/staging/rtl8188eu/hal/bb_cfg.o
+  CC [M]  drivers/staging/comedi/drivers/cb_pcidas64.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/rtl819x_HTProc.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/rtl819x_HTProc.o
+  CHECK   drivers/staging/rtl8188eu/hal/rf_cfg.c
+  CHECK   drivers/staging/rtl8192e/rtllib_softmac_wx.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rf_cfg.o
+drivers/staging/rtl8192e/rtllib_softmac_wx.c:457:15: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8192e/rtllib_softmac_wx.o
+  CHECK   drivers/staging/comedi/drivers/cb_pcidas.c
+  CC [M]  drivers/staging/comedi/drivers/cb_pcidas.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.c
+  CHECK   drivers/staging/rtl8188eu/hal/pwrseqcmd.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/rtl819x_TSProc.o
+  CHECK   drivers/staging/rtl8192e/rtl819x_BAProc.c
+  CC [M]  drivers/staging/rtl8188eu/hal/pwrseqcmd.o
+  CC [M]  drivers/staging/rtl8192e/rtl819x_BAProc.o
+  CHECK   drivers/staging/comedi/drivers/cb_pcidda.c
+  CC [M]  drivers/staging/comedi/drivers/cb_pcidda.o
+  CHECK   drivers/staging/rtl8188eu/hal/pwrseq.c
+  CHECK   drivers/staging/rtl8192e/rtl819x_HTProc.c
+  CHECK   drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.c
+  CC [M]  drivers/staging/rtl8188eu/hal/pwrseq.o
+  CHECK   drivers/staging/comedi/drivers/cb_pcimdas.c
+  CC [M]  drivers/staging/rtl8192e/rtl819x_HTProc.o
+  CC [M]  drivers/staging/comedi/drivers/cb_pcimdas.o
+  CC [M]  drivers/staging/rtl8192u/ieee80211/rtl819x_BAProc.o
+  CHECK   drivers/staging/comedi/drivers/cb_pcimdda.c
+  CHECK   drivers/staging/rtl8188eu/hal/Hal8188ERateAdaptive.c
+  CC [M]  drivers/staging/comedi/drivers/cb_pcimdda.o
+  CC [M]  drivers/staging/rtl8188eu/hal/Hal8188ERateAdaptive.o
+  CHECK   drivers/staging/rtl8192u/ieee80211/dot11d.c
+  CHECK   drivers/staging/rtl8192e/rtl819x_TSProc.c
+  CC [M]  drivers/staging/rtl8192u/ieee80211/dot11d.o
+  CC [M]  drivers/staging/rtl8192e/rtl819x_TSProc.o
+  CHECK   drivers/staging/comedi/drivers/me4000.c
+  CC [M]  drivers/staging/comedi/drivers/me4000.o
+  LD [M]  drivers/staging/rtl8192u/r8192u_usb.o
+  CHECK   drivers/staging/rtl8188eu/hal/hal_intf.c
+  CHECK   drivers/staging/rtl8712/rtl871x_cmd.c
+  CC [M]  drivers/staging/rtl8188eu/hal/hal_intf.o
+  CHECK   drivers/staging/rtl8192e/rtllib_crypt_ccmp.c
+  CHECK   drivers/staging/comedi/drivers/me_daq.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_cmd.o
+  CC [M]  drivers/staging/rtl8192e/rtllib_crypt_ccmp.o
+  CC [M]  drivers/staging/comedi/drivers/me_daq.o
+  CHECK   drivers/staging/rtl8188eu/hal/hal_com.c
+  CHECK   drivers/staging/comedi/drivers/ni_6527.c
+  CC [M]  drivers/staging/rtl8188eu/hal/hal_com.o
+  CC [M]  drivers/staging/comedi/drivers/ni_6527.o
+  CHECK   drivers/staging/rtl8192e/rtllib_crypt_tkip.c
+  CHECK   drivers/staging/rtl8712/rtl8712_cmd.c
+drivers/staging/rtl8192e/rtllib_crypt_tkip.c:342:17: warning: Variable length array is used.
+drivers/staging/rtl8192e/rtllib_crypt_tkip.c:425:17: warning: Variable length array is used.
+drivers/staging/rtl8192e/rtllib_crypt_tkip.c:510:9: warning: Variable length array is used.
+  CC [M]  drivers/staging/rtl8192e/rtllib_crypt_tkip.o
+  CC [M]  drivers/staging/rtl8712/rtl8712_cmd.o
+  CHECK   drivers/staging/rtl8188eu/hal/odm.c
+  CHECK   drivers/staging/comedi/drivers/ni_65xx.c
+  CC [M]  drivers/staging/comedi/drivers/ni_65xx.o
+  CC [M]  drivers/staging/rtl8188eu/hal/odm.o
+  CHECK   drivers/staging/rtl8712/rtl871x_security.c
+  CHECK   drivers/staging/rtl8192e/rtllib_crypt_wep.c
+drivers/staging/rtl8192e/rtllib_crypt_wep.c:138:17: warning: Variable length array is used.
+drivers/staging/rtl8192e/rtllib_crypt_wep.c:202:17: warning: Variable length array is used.
+  CHECK   drivers/staging/comedi/drivers/ni_660x.c
+  CC [M]  drivers/staging/rtl8192e/rtllib_crypt_wep.o
+  CC [M]  drivers/staging/rtl8712/rtl871x_security.o
+  CC [M]  drivers/staging/comedi/drivers/ni_660x.o
+  CHECK   drivers/staging/rtl8188eu/hal/odm_HWConfig.c
+  CHECK   drivers/staging/comedi/drivers/ni_670x.c
+drivers/staging/rtl8188eu/hal/odm_HWConfig.c:392:37: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/hal/odm_HWConfig.o
+  LD [M]  drivers/staging/rtl8192e/rtllib.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_ap.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/ni_670x.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ap.o
+  CHECK   drivers/staging/rtl8712/rtl871x_eeprom.c
+  CHECK   drivers/staging/comedi/drivers/ni_labpc_pci.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_eeprom.o
+  CC [M]  drivers/staging/comedi/drivers/ni_labpc_pci.o
+  CHECK   drivers/staging/rtl8188eu/hal/odm_RTL8188E.c
+drivers/staging/rtl8188eu/hal/odm_RTL8188E.c:291:42: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/hal/odm_RTL8188E.c:291:42: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/hal/odm_RTL8188E.c:306:42: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/hal/odm_RTL8188E.c:306:42: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/hal/odm_RTL8188E.o
+  CHECK   drivers/staging/comedi/drivers/ni_pcidio.c
+  CC [M]  drivers/staging/comedi/drivers/ni_pcidio.o
+  CHECK   drivers/staging/rtl8712/rtl8712_efuse.c
+  CC [M]  drivers/staging/rtl8712/rtl8712_efuse.o
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c
+  CHECK   drivers/staging/rtl8723bs/core/rtw_btcoex.c
+drivers/staging/rtl8188eu/hal/rtl8188e_cmd.c:277:58: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188e_cmd.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_btcoex.o
+  CHECK   drivers/staging/comedi/drivers/ni_pcimio.c
+  CC [M]  drivers/staging/comedi/drivers/ni_pcimio.o
+  CHECK   drivers/staging/rtl8712/hal_init.c
+  CC [M]  drivers/staging/rtl8712/hal_init.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_cmd.c
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188e_dm.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188e_dm.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_cmd.o
+  CHECK   drivers/staging/rtl8712/usb_halinit.c
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188e_hal_init.c
+  CC [M]  drivers/staging/rtl8712/usb_halinit.o
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188e_hal_init.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_debug.c
+  CHECK   drivers/staging/comedi/drivers/rtd520.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_debug.o
+  CC [M]  drivers/staging/comedi/drivers/rtd520.o
+  CHECK   drivers/staging/rtl8712/usb_ops.c
+  CC [M]  drivers/staging/rtl8712/usb_ops.o
+  CHECK   drivers/staging/rtl8188eu/hal/phy.c
+  CC [M]  drivers/staging/rtl8188eu/hal/phy.o
+  CHECK   drivers/staging/comedi/drivers/s626.c
+  CHECK   drivers/staging/rtl8712/usb_ops_linux.c
+  CC [M]  drivers/staging/comedi/drivers/s626.o
+  CC [M]  drivers/staging/rtl8712/usb_ops_linux.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_efuse.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_efuse.o
+  CHECK   drivers/staging/rtl8188eu/hal/rf.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rf.o
+  CHECK   drivers/staging/comedi/drivers/mf6x4.c
+  CHECK   drivers/staging/rtl8712/rtl871x_io.c
+  CC [M]  drivers/staging/comedi/drivers/mf6x4.o
+  CC [M]  drivers/staging/rtl8712/rtl871x_io.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_io.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_io.o
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188e_rxdesc.c
+  CHECK   drivers/staging/comedi/drivers/cb_das16_cs.c
+  CHECK   drivers/staging/rtl8712/rtl8712_io.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188e_rxdesc.o
+  CC [M]  drivers/staging/comedi/drivers/cb_das16_cs.o
+  CC [M]  drivers/staging/rtl8712/rtl8712_io.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_ioctl_set.c
+  CHECK   drivers/staging/comedi/drivers/das08_cs.c
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188e_xmit.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ioctl_set.o
+  CC [M]  drivers/staging/comedi/drivers/das08_cs.o
+  CHECK   drivers/staging/rtl8712/rtl871x_ioctl_linux.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188e_xmit.o
+drivers/staging/rtl8712/rtl871x_ioctl_linux.c:172:29: warning: expression using sizeof(void)
+drivers/staging/rtl8712/rtl871x_ioctl_linux.c:1008:33: warning: expression using sizeof(void)
+drivers/staging/rtl8712/rtl871x_ioctl_linux.c:1008:33: warning: expression using sizeof(void)
+drivers/staging/rtl8712/rtl871x_ioctl_linux.c:1156:35: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8712/rtl871x_ioctl_linux.o
+  CHECK   drivers/staging/comedi/drivers/ni_daq_700.c
+  CC [M]  drivers/staging/comedi/drivers/ni_daq_700.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_ieee80211.c
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188eu_led.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_ieee80211.o
+  CHECK   drivers/staging/comedi/drivers/ni_daq_dio24.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188eu_led.o
+  CC [M]  drivers/staging/comedi/drivers/ni_daq_dio24.o
+  CHECK   drivers/staging/rtl8712/rtl871x_ioctl_rtl.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_ioctl_rtl.o
+  CHECK   drivers/staging/comedi/drivers/ni_labpc_cs.c
+  CC [M]  drivers/staging/comedi/drivers/ni_labpc_cs.o
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188eu_recv.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188eu_recv.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_mlme.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_mlme.o
+  CHECK   drivers/staging/comedi/drivers/ni_mio_cs.c
+  CHECK   drivers/staging/rtl8712/rtl871x_ioctl_set.c
+  CC [M]  drivers/staging/comedi/drivers/ni_mio_cs.o
+  CC [M]  drivers/staging/rtl8712/rtl871x_ioctl_set.o
+  CHECK   drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.c
+  CC [M]  drivers/staging/rtl8188eu/hal/rtl8188eu_xmit.o
+  CHECK   drivers/staging/rtl8712/rtl8712_led.c
+  CC [M]  drivers/staging/rtl8712/rtl8712_led.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_mlme_ext.c
+  CHECK   drivers/staging/rtl8188eu/hal/usb_halinit.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_mlme_ext.o
+  CC [M]  drivers/staging/rtl8188eu/hal/usb_halinit.o
+  CHECK   drivers/staging/comedi/drivers/quatech_daqp_cs.c
+  CC [M]  drivers/staging/comedi/drivers/quatech_daqp_cs.o
+  CHECK   drivers/staging/rtl8712/rtl871x_mlme.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8712/rtl871x_mlme.o
+  CHECK   drivers/staging/rtl8188eu/os_dep/ioctl_linux.c
+  CHECK   drivers/staging/comedi/drivers/dt9812.c
+  CC [M]  drivers/staging/comedi/drivers/dt9812.o
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:128:29: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:459:101: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:471:135: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:607:77: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:1136:35: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:1320:23: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2327:65: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2336:65: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2346:65: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2367:93: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2401:73: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2409:73: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2420:73: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2663:36: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/ioctl_linux.c:2968:33: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/os_dep/ioctl_linux.o
+  CHECK   drivers/staging/rtl8712/ieee80211.c
+  CHECK   drivers/staging/comedi/drivers/ni_usb6501.c
+  CC [M]  drivers/staging/comedi/drivers/ni_usb6501.o
+  CC [M]  drivers/staging/rtl8712/ieee80211.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_odm.c
+  CHECK   drivers/staging/comedi/drivers/usbdux.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_odm.o
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/usbdux.o
+  CHECK   drivers/staging/rtl8712/rtl871x_mp_ioctl.c
+  CHECK   drivers/staging/rtl8188eu/os_dep/mlme_linux.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_mp_ioctl.o
+drivers/staging/rtl8188eu/os_dep/mlme_linux.c:112:24: warning: expression using sizeof(void)
+drivers/staging/rtl8188eu/os_dep/mlme_linux.c:118:36: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8188eu/os_dep/mlme_linux.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_pwrctrl.c
+  CHECK   drivers/staging/comedi/drivers/usbduxfast.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_pwrctrl.o
+  CC [M]  drivers/staging/comedi/drivers/usbduxfast.o
+  CHECK   drivers/staging/rtl8712/rtl871x_mp.c
+  CHECK   drivers/staging/rtl8188eu/os_dep/mon.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_mp.o
+  CC [M]  drivers/staging/rtl8188eu/os_dep/mon.o
+  CHECK   drivers/staging/comedi/drivers/usbduxsigma.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/usbduxsigma.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_recv.c
+  CHECK   drivers/staging/rtl8712/mlme_linux.c
+  CHECK   drivers/staging/rtl8188eu/os_dep/os_intfs.c
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_recv.o
+  CC [M]  drivers/staging/rtl8712/mlme_linux.o
+  CC [M]  drivers/staging/rtl8188eu/os_dep/os_intfs.o
+  CHECK   drivers/staging/comedi/drivers/vmk80xx.c
+  CC [M]  drivers/staging/comedi/drivers/vmk80xx.o
+  CHECK   drivers/staging/rtl8712/recv_linux.c
+  CC [M]  drivers/staging/rtl8712/recv_linux.o
+  CHECK   drivers/staging/rtl8188eu/os_dep/osdep_service.c
+  CC [M]  drivers/staging/rtl8188eu/os_dep/osdep_service.o
+  CHECK   drivers/staging/comedi/drivers/mite.c
+  CHECK   drivers/staging/rtl8723bs/core/rtw_rf.c
+  CC [M]  drivers/staging/comedi/drivers/mite.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_rf.o
+  CHECK   drivers/staging/rtl8712/xmit_linux.c
+  CC [M]  drivers/staging/rtl8712/xmit_linux.o
+  CHECK   drivers/staging/rtl8188eu/os_dep/recv_linux.c
+  CC [M]  drivers/staging/rtl8188eu/os_dep/recv_linux.o
+  CHECK   drivers/staging/comedi/drivers/ni_tio.c
+  CHECK   drivers/staging/rtl8723bs/core/rtw_security.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers/ni_tio.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_security.o
+  CHECK   drivers/staging/rtl8712/usb_intf.c
+  CC [M]  drivers/staging/rtl8712/usb_intf.o
+  CHECK   drivers/staging/rtl8188eu/os_dep/rtw_android.c
+  CC [M]  drivers/staging/rtl8188eu/os_dep/rtw_android.o
+  CHECK   drivers/staging/comedi/drivers/ni_tiocmd.c
+  CC [M]  drivers/staging/comedi/drivers/ni_tiocmd.o
+  CHECK   drivers/staging/rtl8712/os_intfs.c
+  CC [M]  drivers/staging/rtl8712/os_intfs.o
+  CHECK   drivers/staging/comedi/drivers/ni_labpc_common.c
+  CHECK   drivers/staging/rtl8188eu/os_dep/usb_intf.c
+  CHECK   drivers/staging/rtl8723bs/core/rtw_sta_mgt.c
+  CC [M]  drivers/staging/comedi/drivers/ni_labpc_common.o
+  CC [M]  drivers/staging/rtl8188eu/os_dep/usb_intf.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_sta_mgt.o
+  CHECK   drivers/staging/rtl8712/rtl871x_pwrctrl.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_pwrctrl.o
+  CHECK   drivers/staging/comedi/drivers/ni_labpc_isadma.c
+  CHECK   drivers/staging/rtl8188eu/os_dep/usb_ops_linux.c
+  CC [M]  drivers/staging/comedi/drivers/ni_labpc_isadma.o
+  CHECK   drivers/staging/rtl8723bs/core/rtw_wlan_util.c
+  CC [M]  drivers/staging/rtl8188eu/os_dep/usb_ops_linux.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_wlan_util.o
+  CHECK   drivers/staging/rtl8712/rtl8712_recv.c
+  CHECK   drivers/staging/comedi/drivers/comedi_8255.c
+  CC [M]  drivers/staging/comedi/drivers/comedi_8255.o
+drivers/staging/rtl8712/rtl8712_recv.c:1063:36: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8712/rtl8712_recv.o
+  CHECK   drivers/staging/rtl8188eu/os_dep/xmit_linux.c
+  CHECK   drivers/staging/comedi/drivers/8255.c
+  CC [M]  drivers/staging/comedi/drivers/8255.o
+  CC [M]  drivers/staging/rtl8188eu/os_dep/xmit_linux.o
+  CHECK   drivers/staging/rtl8712/rtl871x_recv.c
+  CHECK   drivers/staging/rtl8723bs/core/rtw_xmit.c
+  CHECK   drivers/staging/comedi/drivers/amplc_dio200_common.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_recv.o
+  CC [M]  drivers/staging/comedi/drivers/amplc_dio200_common.o
+  CC [M]  drivers/staging/rtl8723bs/core/rtw_xmit.o
+  LD [M]  drivers/staging/rtl8188eu/r8188eu.o
+  CHECK   drivers/staging/rtlwifi/base.c
+  CC [M]  drivers/staging/rtlwifi/base.o
+  CHECK   drivers/staging/comedi/drivers/amplc_pc236_common.c
+  CC [M]  drivers/staging/comedi/drivers/amplc_pc236_common.o
+  CHECK   drivers/staging/rtl8712/rtl871x_sta_mgt.c
+  CC [M]  drivers/staging/rtl8712/rtl871x_sta_mgt.o
+  CHECK   drivers/staging/comedi/drivers/das08.c
+  CHECK   drivers/staging/rtl8723bs/hal/hal_intf.c
+  CC [M]  drivers/staging/comedi/drivers/das08.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_intf.o
+  CHECK   drivers/staging/rtl8712/rtl871x_xmit.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtl8712/rtl871x_xmit.o
+  CHECK   drivers/staging/comedi/kcomedilib/kcomedilib_main.c
+  CHECK   drivers/staging/rtlwifi/cam.c
+  CC [M]  drivers/staging/comedi/kcomedilib/kcomedilib_main.o
+  CC [M]  drivers/staging/rtlwifi/cam.o
+  CHECK   drivers/staging/rtl8723bs/hal/hal_com.c
+  LD [M]  drivers/staging/comedi/kcomedilib/kcomedilib.o
+  CHECK   drivers/staging/comedi/comedi_pci.c
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_com.o
+  CC [M]  drivers/staging/comedi/comedi_pci.o
+  CHECK   drivers/staging/rtl8712/rtl8712_xmit.c
+  CC [M]  drivers/staging/rtl8712/rtl8712_xmit.o
+  CHECK   drivers/staging/comedi/comedi_pcmcia.c
+  CHECK   drivers/staging/rtlwifi/core.c
+  CC [M]  drivers/staging/comedi/comedi_pcmcia.o
+  CC [M]  drivers/staging/rtlwifi/core.o
+  CHECK   drivers/staging/rtl8723bs/hal/hal_com_phycfg.c
+  LD [M]  drivers/staging/rtl8712/r8712u.o
+  CHECK   drivers/staging/comedi/comedi_usb.c
+  CHECK   drivers/staging/rts5208/rtsx.c
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_com_phycfg.o
+  CC [M]  drivers/staging/comedi/comedi_usb.o
+  CC [M]  drivers/staging/rts5208/rtsx.o
+  CHECK   drivers/staging/comedi/comedi_fops.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: error: not a function <noident>
+drivers/staging/comedi/comedi_fops.c:2370:21: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2370:21: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2392:22: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2392:22: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2492:21: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2492:21: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2526:22: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_fops.c:2526:22: warning: expression using sizeof(void)
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/comedi_fops.o
+  CHECK   drivers/staging/rtlwifi/debug.c
+  CHECK   drivers/staging/rts5208/rtsx_chip.c
+  CC [M]  drivers/staging/rtlwifi/debug.o
+  CC [M]  drivers/staging/rts5208/rtsx_chip.o
+  CHECK   drivers/staging/comedi/range.c
+  CHECK   drivers/staging/rtl8723bs/hal/hal_btcoex.c
+  CC [M]  drivers/staging/comedi/range.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_btcoex.o
+  CHECK   drivers/staging/rtlwifi/efuse.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/rtlwifi/efuse.o
+  CHECK   drivers/staging/comedi/drivers.c
+  CHECK   drivers/staging/rts5208/rtsx_transport.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: error: not a function <noident>
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/comedi/drivers.o
+drivers/staging/rts5208/rtsx_transport.c:59:23: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_transport.c:59:23: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_transport.c:105:53: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_transport.c:105:53: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rts5208/rtsx_transport.o
+  CHECK   drivers/staging/rtl8723bs/hal/hal_sdio.c
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_sdio.o
+  CHECK   drivers/staging/comedi/comedi_buf.c
+drivers/staging/comedi/comedi_buf.c:164:25: warning: expression using sizeof(void)
+drivers/staging/comedi/comedi_buf.c:164:25: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/comedi/comedi_buf.o
+  CHECK   drivers/staging/rts5208/rtsx_scsi.c
+drivers/staging/rts5208/rtsx_scsi.c:319:23: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:844:36: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:844:36: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1069:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1069:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1163:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1163:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1204:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1204:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1281:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1281:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1314:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1314:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1485:15: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1508:15: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1644:15: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1644:15: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1794:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1996:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:1996:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2029:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2029:39: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2161:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2161:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2187:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2187:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2264:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2264:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2291:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2291:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2451:20: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2451:20: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2495:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2495:31: warning: expression using sizeof(void)
+drivers/staging/rts5208/rtsx_scsi.c:2729:19: warning: expression using sizeof(void)
+  CHECK   drivers/staging/rtlwifi/ps.c
+  CC [M]  drivers/staging/rts5208/rtsx_scsi.o
+  CC [M]  drivers/staging/rtlwifi/ps.o
+  CHECK   drivers/staging/comedi/proc.c
+  CHECK   drivers/staging/rtl8723bs/hal/hal_pwr_seq.c
+  CC [M]  drivers/staging/comedi/proc.o
+  CC [M]  drivers/staging/rtl8723bs/hal/hal_pwr_seq.o
+  CHECK   drivers/staging/comedi/comedi_compat32.c
+  CC [M]  drivers/staging/comedi/comedi_compat32.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalPhyRf.c
+  CHECK   drivers/staging/rtlwifi/rc.c
+  LD [M]  drivers/staging/comedi/comedi.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPhyRf.o
+  CHECK   drivers/staging/skein/skein_base.c
+  CC      drivers/staging/skein/skein_base.o
+  CC [M]  drivers/staging/rtlwifi/rc.o
+  CHECK   drivers/staging/rts5208/rtsx_card.c
+  CHECK   drivers/staging/skein/skein_api.c
+  CC      drivers/staging/skein/skein_api.o
+  CHECK   drivers/staging/skein/skein_block.c
+  CC      drivers/staging/skein/skein_block.o
+  CC [M]  drivers/staging/rts5208/rtsx_card.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalPwrSeqCmd.c
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPwrSeqCmd.o
+  CHECK   drivers/staging/rtlwifi/regd.c
+  CHECK   drivers/staging/skein/threefish_block.c
+  CC      drivers/staging/skein/threefish_block.o
+  CC [M]  drivers/staging/rtlwifi/regd.o
+  CHECK   drivers/staging/rts5208/general.c
+  CC [M]  drivers/staging/rts5208/general.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm.c
+  CC [M]  drivers/staging/rtl8723bs/hal/odm.o
+  CHECK   drivers/staging/rtlwifi/stats.c
+  CHECK   drivers/staging/rts5208/sd.c
+drivers/staging/rts5208/sd.c:307:34: warning: expression using sizeof(void)
+drivers/staging/rts5208/sd.c:387:34: warning: expression using sizeof(void)
+drivers/staging/rts5208/sd.c:4250:15: warning: expression using sizeof(void)
+drivers/staging/rts5208/sd.c:4563:27: warning: expression using sizeof(void)
+drivers/staging/rts5208/sd.c:4563:27: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rts5208/sd.o
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+drivers/staging/rtlwifi/stats.c:30:22: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtlwifi/stats.o
+  CHECK   drivers/staging/skein/threefish_api.c
+  CC      drivers/staging/skein/threefish_api.o
+  CHECK   drivers/staging/skein/skein_generic.c
+  CHECK   drivers/staging/rtl8723bs/hal/odm_CfoTracking.c
+  CC      drivers/staging/skein/skein_generic.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_CfoTracking.o
+  CHECK   drivers/staging/rtlwifi/pci.c
+  AR      drivers/staging/skein/built-in.a
+  CC [M]  drivers/staging/rtlwifi/pci.o
+  CHECK   drivers/staging/sm750fb/sm750.c
+  CC [M]  drivers/staging/sm750fb/sm750.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm_debug.c
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_debug.o
+  CHECK   drivers/staging/rts5208/xd.c
+  CC [M]  drivers/staging/rts5208/xd.o
+  CHECK   drivers/staging/sm750fb/sm750_hw.c
+  CHECK   drivers/staging/rtl8723bs/hal/odm_DIG.c
+  CC [M]  drivers/staging/sm750fb/sm750_hw.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DIG.o
+  CHECK   drivers/staging/rtlwifi/rtl8822be/fw.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/fw.o
+  CHECK   drivers/staging/sm750fb/sm750_accel.c
+  CC [M]  drivers/staging/sm750fb/sm750_accel.o
+  CHECK   drivers/staging/rts5208/ms.c
+drivers/staging/rts5208/ms.c:4290:38: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4360:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4424:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4497:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4536:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4614:19: warning: expression using sizeof(void)
+drivers/staging/rts5208/ms.c:4647:19: warning: expression using sizeof(void)
+  CHECK   drivers/staging/rtl8723bs/hal/odm_DynamicBBPowerSaving.c
+  CC [M]  drivers/staging/rts5208/ms.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DynamicBBPowerSaving.o
+  CHECK   drivers/staging/sm750fb/sm750_cursor.c
+  CC [M]  drivers/staging/sm750fb/sm750_cursor.o
+  CHECK   drivers/staging/rtlwifi/rtl8822be/hw.c
+  CHECK   drivers/staging/rtl8723bs/hal/odm_DynamicTxPower.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/hw.o
+  CHECK   drivers/staging/sm750fb/ddk750_chip.c
+  CC [M]  drivers/staging/sm750fb/ddk750_chip.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_DynamicTxPower.o
+  CHECK   drivers/staging/sm750fb/ddk750_power.c
+  CC [M]  drivers/staging/sm750fb/ddk750_power.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm_EdcaTurboCheck.c
+  CHECK   drivers/staging/rts5208/spi.c
+  CHECK   drivers/staging/sm750fb/ddk750_mode.c
+  CC [M]  drivers/staging/sm750fb/ddk750_mode.o
+drivers/staging/rts5208/spi.c:526:32: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rts5208/spi.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_EdcaTurboCheck.o
+  CHECK   drivers/staging/sm750fb/ddk750_display.c
+  CC [M]  drivers/staging/sm750fb/ddk750_display.o
+  CHECK   drivers/staging/rtlwifi/rtl8822be/led.c
+  CHECK   drivers/staging/sm750fb/ddk750_swi2c.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/led.o
+  CC [M]  drivers/staging/sm750fb/ddk750_swi2c.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm_HWConfig.c
+  CHECK   drivers/staging/rts5208/trace.c
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_HWConfig.o
+  CC [M]  drivers/staging/rts5208/trace.o
+  CHECK   drivers/staging/sm750fb/ddk750_sii164.c
+  CC [M]  drivers/staging/sm750fb/ddk750_sii164.o
+  CHECK   drivers/staging/sm750fb/ddk750_dvi.c
+  CC [M]  drivers/staging/sm750fb/ddk750_dvi.o
+  CHECK   drivers/staging/sm750fb/ddk750_hwi2c.c
+  CHECK   drivers/staging/rtlwifi/rtl8822be/phy.c
+  CC [M]  drivers/staging/sm750fb/ddk750_hwi2c.o
+  LD [M]  drivers/staging/rts5208/rts5208.o
+  CHECK   drivers/staging/speakup/speakup_acntsa.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/phy.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm_NoiseMonitor.c
+  LD [M]  drivers/staging/sm750fb/sm750fb.o
+  AR      drivers/staging/typec/built-in.a
+  CC [M]  drivers/staging/speakup/speakup_acntsa.o
+  CHECK   drivers/staging/typec/tcpci.c
+  CC [M]  drivers/staging/typec/tcpci.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_NoiseMonitor.o
+  CHECK   drivers/staging/speakup/speakup_apollo.c
+  CC [M]  drivers/staging/speakup/speakup_apollo.o
+  CHECK   drivers/staging/unisys/visorhba/visorhba_main.c
+  CC [M]  drivers/staging/unisys/visorhba/visorhba_main.o
+  CHECK   drivers/staging/rtl8723bs/hal/odm_PathDiv.c
+  CHECK   drivers/staging/speakup/speakup_audptr.c
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_PathDiv.o
+  CC [M]  drivers/staging/speakup/speakup_audptr.o
+  CHECK   drivers/staging/rtlwifi/rtl8822be/sw.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/sw.o
+  CHECK   drivers/staging/speakup/speakup_bns.c
+  LD [M]  drivers/staging/unisys/visorhba/visorhba.o
+  CC [M]  drivers/staging/speakup/speakup_bns.o
+  CHECK   drivers/staging/unisys/visorinput/visorinput.c
+  CHECK   drivers/staging/rtl8723bs/hal/odm_RegConfig8723B.c
+  CC [M]  drivers/staging/unisys/visorinput/visorinput.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_RegConfig8723B.o
+  CHECK   drivers/staging/speakup/speakup_dectlk.c
+  CC [M]  drivers/staging/speakup/speakup_dectlk.o
+  CHECK   drivers/staging/unisys/visornic/visornic_main.c
+drivers/staging/unisys/visornic/visornic_main.c:220:52: warning: expression using sizeof(void)
+drivers/staging/unisys/visornic/visornic_main.c:269:24: warning: expression using sizeof(void)
+drivers/staging/unisys/visornic/visornic_main.c:269:24: warning: expression using sizeof(void)
+drivers/staging/unisys/visornic/visornic_main.c:1309:36: warning: expression using sizeof(void)
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/unisys/visornic/visornic_main.o
+  CHECK   drivers/staging/rtlwifi/rtl8822be/trx.c
+  CHECK   drivers/staging/rtl8723bs/hal/odm_RTL8723B.c
+  CHECK   drivers/staging/speakup/speakup_decext.c
+  CC [M]  drivers/staging/rtlwifi/rtl8822be/trx.o
+  CC [M]  drivers/staging/speakup/speakup_decext.o
+  CC [M]  drivers/staging/rtl8723bs/hal/odm_RTL8723B.o
+  CHECK   drivers/staging/speakup/speakup_ltlk.c
+  CC [M]  drivers/staging/speakup/speakup_ltlk.o
+  LD [M]  drivers/staging/unisys/visornic/visornic.o
+  AR      drivers/staging/unisys/built-in.a
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_cmd.c
+  CHECK   drivers/staging/vboxvideo/hgsmi_base.c
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_cmd.o
+  CHECK   drivers/staging/rtlwifi/btcoexist/halbtc8822b2ant.c
+  CHECK   drivers/staging/speakup/speakup_soft.c
+  CC [M]  drivers/staging/rtlwifi/btcoexist/halbtc8822b2ant.o
+  CC [M]  drivers/staging/speakup/speakup_soft.o
+  CC [M]  drivers/staging/vboxvideo/hgsmi_base.o
+  CHECK   drivers/staging/speakup/speakup_spkout.c
+  CHECK   drivers/staging/vboxvideo/modesetting.c
+  CC [M]  drivers/staging/speakup/speakup_spkout.o
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_dm.c
+  CC [M]  drivers/staging/vboxvideo/modesetting.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_dm.o
+  CHECK   drivers/staging/speakup/speakup_txprt.c
+  CC [M]  drivers/staging/speakup/speakup_txprt.o
+  CHECK   drivers/staging/vboxvideo/vbva_base.c
+  CC [M]  drivers/staging/vboxvideo/vbva_base.o
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_hal_init.c
+  CHECK   drivers/staging/speakup/speakup_dummy.c
+  CC [M]  drivers/staging/speakup/speakup_dummy.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_hal_init.o
+  CHECK   drivers/staging/rtlwifi/btcoexist/halbtc8822b1ant.c
+  CHECK   drivers/staging/vboxvideo/vbox_drv.c
+  CC [M]  drivers/staging/rtlwifi/btcoexist/halbtc8822b1ant.o
+  CHECK   drivers/staging/speakup/buffers.c
+  CC [M]  drivers/staging/vboxvideo/vbox_drv.o
+  CC [M]  drivers/staging/speakup/buffers.o
+  CHECK   drivers/staging/speakup/devsynth.c
+drivers/staging/speakup/devsynth.c:29:25: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/speakup/devsynth.o
+  CHECK   drivers/staging/vboxvideo/vbox_fb.c
+  CC [M]  drivers/staging/vboxvideo/vbox_fb.o
+  CHECK   drivers/staging/speakup/i18n.c
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_phycfg.c
+  CC [M]  drivers/staging/speakup/i18n.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_phycfg.o
+  CHECK   drivers/staging/vboxvideo/vbox_hgsmi.c
+  CHECK   drivers/staging/rtlwifi/btcoexist/halbtc8822bwifionly.c
+  CHECK   drivers/staging/speakup/fakekey.c
+  CC [M]  drivers/staging/vboxvideo/vbox_hgsmi.o
+  CC [M]  drivers/staging/speakup/fakekey.o
+  CC [M]  drivers/staging/rtlwifi/btcoexist/halbtc8822bwifionly.o
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_rf6052.c
+  CHECK   drivers/staging/vboxvideo/vbox_irq.c
+  CHECK   drivers/staging/speakup/main.c
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_rf6052.o
+  CC [M]  drivers/staging/vboxvideo/vbox_irq.o
+  CC [M]  drivers/staging/speakup/main.o
+  CHECK   drivers/staging/rtlwifi/btcoexist/halbtcoutsrc.c
+  CC [M]  drivers/staging/rtlwifi/btcoexist/halbtcoutsrc.o
+  CHECK   drivers/staging/vboxvideo/vbox_main.c
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723b_rxdesc.c
+./include/linux/device.h:678:13: error: undefined identifier '__builtin_mul_overflow'
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_main.c:318:27: warning: expression using sizeof(void)
+./include/linux/device.h:678:13: error: not a function <noident>
+./include/linux/device.h:678:13: warning: call with no type!
+  CC [M]  drivers/staging/vboxvideo/vbox_main.o
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723b_rxdesc.o
+  CHECK   drivers/staging/vboxvideo/vbox_mode.c
+  CHECK   drivers/staging/speakup/keyhelp.c
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723bs_recv.c
+  CC [M]  drivers/staging/speakup/keyhelp.o
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:788:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:789:30: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:864:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:864:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:866:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:866:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:211:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:211:25: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:213:26: warning: expression using sizeof(void)
+drivers/staging/vboxvideo/vbox_mode.c:213:26: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/vboxvideo/vbox_mode.o
+  CHECK   drivers/staging/rtlwifi/btcoexist/rtl_btc.c
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723bs_recv.o
+  CC [M]  drivers/staging/rtlwifi/btcoexist/rtl_btc.o
+  CHECK   drivers/staging/speakup/kobjects.c
+drivers/staging/speakup/kobjects.c:424:25: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/speakup/kobjects.o
+  CHECK   drivers/staging/vboxvideo/vbox_prime.c
+  CC [M]  drivers/staging/vboxvideo/vbox_prime.o
+  CHECK   drivers/staging/rtl8723bs/hal/rtl8723bs_xmit.c
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_api.c
+  CC [M]  drivers/staging/rtl8723bs/hal/rtl8723bs_xmit.o
+  CHECK   drivers/staging/speakup/selection.c
+  CC [M]  drivers/staging/speakup/selection.o
+  CHECK   drivers/staging/vboxvideo/vbox_ttm.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_api.o
+  CC [M]  drivers/staging/vboxvideo/vbox_ttm.o
+  CHECK   drivers/staging/speakup/serialio.c
+  CHECK   drivers/staging/rtl8723bs/hal/sdio_halinit.c
+  CC [M]  drivers/staging/speakup/serialio.o
+  CC [M]  drivers/staging/rtl8723bs/hal/sdio_halinit.o
+  LD [M]  drivers/staging/vboxvideo/vboxvideo.o
+  AR      drivers/staging/vme/devices/built-in.a
+  CHECK   drivers/staging/vme/devices/vme_user.c
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_usb.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_usb.o
+  CHECK   drivers/staging/speakup/spk_ttyio.c
+  CC [M]  drivers/staging/vme/devices/vme_user.o
+  CC [M]  drivers/staging/speakup/spk_ttyio.o
+  CHECK   drivers/staging/rtl8723bs/hal/sdio_ops.c
+  CHECK   drivers/staging/speakup/synth.c
+  CC [M]  drivers/staging/rtl8723bs/hal/sdio_ops.o
+  CC [M]  drivers/staging/speakup/synth.o
+  AR      drivers/staging/vme/built-in.a
+  CHECK   drivers/staging/vt6655/device_main.c
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_sdio.c
+  CC [M]  drivers/staging/vt6655/device_main.o
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_sdio.o
+  CHECK   drivers/staging/speakup/thread.c
+  CC [M]  drivers/staging/speakup/thread.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalBtc8723b1Ant.c
+  CC [M]  drivers/staging/rtl8723bs/hal/HalBtc8723b1Ant.o
+  CHECK   drivers/staging/speakup/varhandlers.c
+  CC [M]  drivers/staging/speakup/varhandlers.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx.o
+  CHECK   drivers/staging/vt6655/card.c
+  LD [M]  drivers/staging/speakup/speakup.o
+  CHECK   drivers/staging/vt6656/main_usb.c
+  CC [M]  drivers/staging/vt6655/card.o
+  CC [M]  drivers/staging/vt6656/main_usb.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalBtc8723b2Ant.c
+  CC [M]  drivers/staging/rtl8723bs/hal/HalBtc8723b2Ant.o
+  CHECK   drivers/staging/vt6655/channel.c
+  CHECK   drivers/staging/vt6656/card.c
+  CC [M]  drivers/staging/vt6655/channel.o
+  CC [M]  drivers/staging/vt6656/card.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_pcie.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_api_88xx_pcie.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalHWImg8723B_BB.c
+  CHECK   drivers/staging/vt6655/mac.c
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_BB.o
+  CHECK   drivers/staging/vt6656/mac.c
+  CC [M]  drivers/staging/vt6655/mac.o
+  CC [M]  drivers/staging/vt6656/mac.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_func_88xx.c
+  CHECK   drivers/staging/rtl8723bs/hal/HalHWImg8723B_MAC.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_func_88xx.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_MAC.o
+  CHECK   drivers/staging/vt6655/baseband.c
+  CHECK   drivers/staging/vt6656/baseband.c
+  CC [M]  drivers/staging/vt6655/baseband.o
+  CC [M]  drivers/staging/vt6656/baseband.o
+  CHECK   drivers/staging/rtl8723bs/hal/HalHWImg8723B_RF.c
+  CC [M]  drivers/staging/rtl8723bs/hal/HalHWImg8723B_RF.o
+  CHECK   drivers/staging/vt6655/rxtx.c
+  CHECK   drivers/staging/vt6656/wcmd.c
+  CC [M]  drivers/staging/vt6655/rxtx.o
+  CC [M]  drivers/staging/vt6656/wcmd.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_pcie.c
+  CHECK   drivers/staging/rtl8723bs/hal/HalPhyRf_8723B.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_pcie.o
+  CC [M]  drivers/staging/rtl8723bs/hal/HalPhyRf_8723B.o
+  CHECK   drivers/staging/vt6655/dpc.c
+  CHECK   drivers/staging/vt6656/rxtx.c
+  CC [M]  drivers/staging/vt6655/dpc.o
+  CC [M]  drivers/staging/vt6656/rxtx.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_func_8822b.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_func_8822b.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.c
+  CHECK   drivers/staging/vt6655/power.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/ioctl_cfg80211.o
+  CC [M]  drivers/staging/vt6655/power.o
+  CHECK   drivers/staging/vt6656/dpc.c
+  CC [M]  drivers/staging/vt6656/dpc.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_sdio.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_sdio.o
+  CHECK   drivers/staging/vt6655/srom.c
+  CC [M]  drivers/staging/vt6655/srom.o
+  CHECK   drivers/staging/vt6656/power.c
+  CHECK   drivers/staging/rtl8723bs/os_dep/ioctl_linux.c
+  CC [M]  drivers/staging/vt6656/power.o
+drivers/staging/rtl8723bs/os_dep/ioctl_linux.c:182:29: warning: expression using sizeof(void)
+drivers/staging/rtl8723bs/os_dep/ioctl_linux.c:1395:35: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtl8723bs/os_dep/ioctl_linux.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b.o
+  CHECK   drivers/staging/vt6655/key.c
+  CC [M]  drivers/staging/vt6655/key.o
+  CHECK   drivers/staging/vt6656/key.c
+  CC [M]  drivers/staging/vt6656/key.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_8822b_phy.c
+  CHECK   drivers/staging/vt6655/rf.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_8822b_phy.o
+  CC [M]  drivers/staging/vt6655/rf.o
+  CHECK   drivers/staging/vt6656/rf.c
+  CHECK   drivers/staging/rtl8723bs/os_dep/mlme_linux.c
+  CC [M]  drivers/staging/vt6656/rf.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/mlme_linux.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_8822b_pwr_seq.c
+  LD [M]  drivers/staging/vt6655/vt6655_stage.o
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_8822b_pwr_seq.o
+  CHECK   drivers/staging/wilc1000/wilc_wfi_cfgoperations.c
+  CHECK   drivers/staging/rtl8723bs/os_dep/osdep_service.c
+  CHECK   drivers/staging/vt6656/usbpipe.c
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CC [M]  drivers/staging/wilc1000/wilc_wfi_cfgoperations.o
+  CC [M]  drivers/staging/rtl8723bs/os_dep/osdep_service.o
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+./include/linux/usb.h:1690:28: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/vt6656/usbpipe.o
+  CHECK   drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_usb.c
+  CC [M]  drivers/staging/rtlwifi/halmac/halmac_88xx/halmac_8822b/halmac_api_8822b_usb.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/os_intfs.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/os_intfs.o
+  CHECK   drivers/staging/vt6656/channel.c
+  CC [M]  drivers/staging/vt6656/channel.o
+  CHECK   drivers/staging/wilc1000/linux_wlan.c
+  CHECK   drivers/staging/rtlwifi/halmac/rtl_halmac.c
+  CC [M]  drivers/staging/wilc1000/linux_wlan.o
+  CC [M]  drivers/staging/rtlwifi/halmac/rtl_halmac.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/recv_linux.c
+  CHECK   drivers/staging/vt6656/firmware.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/recv_linux.o
+drivers/staging/vt6656/firmware.c:53:26: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/vt6656/firmware.o
+  CHECK   drivers/staging/wilc1000/linux_mon.c
+  CC [M]  drivers/staging/wilc1000/linux_mon.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/rtw_proc.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_debug.c
+  CHECK   drivers/staging/vt6656/int.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/rtw_proc.o
+  CC [M]  drivers/staging/vt6656/int.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_debug.o
+  CHECK   drivers/staging/wilc1000/coreconfigurator.c
+  CC [M]  drivers/staging/wilc1000/coreconfigurator.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/sdio_intf.c
+  LD [M]  drivers/staging/vt6656/vt6656_stage.o
+  CHECK   drivers/staging/wlan-ng/prism2usb.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/sdio_intf.o
+drivers/staging/wlan-ng/prism2mgmt.c:421:30: warning: expression using sizeof(void)
+./include/linux/slab.h:631:13: error: undefined identifier '__builtin_mul_overflow'
+./include/linux/slab.h:631:13: warning: call with no type!
+  CHECK   drivers/staging/wilc1000/host_interface.c
+  CC [M]  drivers/staging/wlan-ng/prism2usb.o
+  CC [M]  drivers/staging/wilc1000/host_interface.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/sdio_ops_linux.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/sdio_ops_linux.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_antdiv.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_antdiv.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/wifi_regd.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/wifi_regd.o
+  CHECK   drivers/staging/wilc1000/wilc_wlan_cfg.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_interface.c
+drivers/staging/wilc1000/wilc_wlan_cfg.c:283:21: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan_cfg.c:283:21:    expected unsigned int [unsigned] [assigned] [usertype] wid
+drivers/staging/wilc1000/wilc_wlan_cfg.c:283:21:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan_cfg.c:306:60: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan_cfg.c:306:60:    expected unsigned short [unsigned] [usertype] val
+drivers/staging/wilc1000/wilc_wlan_cfg.c:306:60:    got restricted __le16 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan_cfg.c:322:59: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan_cfg.c:322:59:    expected unsigned int [unsigned] [usertype] val
+drivers/staging/wilc1000/wilc_wlan_cfg.c:322:59:    got restricted __le32 [usertype] <noident>
+  CC [M]  drivers/staging/wilc1000/wilc_wlan_cfg.o
+  CHECK   drivers/staging/wlan-ng/p80211conv.c
+  CC [M]  drivers/staging/wlan-ng/p80211conv.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_interface.o
+  CHECK   drivers/staging/rtl8723bs/os_dep/xmit_linux.c
+  CC [M]  drivers/staging/rtl8723bs/os_dep/xmit_linux.o
+  CHECK   drivers/staging/wilc1000/wilc_debugfs.c
+  CC [M]  drivers/staging/wilc1000/wilc_debugfs.o
+  CHECK   drivers/staging/wlan-ng/p80211req.c
+  CC [M]  drivers/staging/wlan-ng/p80211req.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_hwconfig.c
+  LD [M]  drivers/staging/rtl8723bs/r8723bs.o
+  CHECK   drivers/staging/wilc1000/wilc_wlan.c
+  CHECK   drivers/staging/xgifb/XGI_main_26.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_hwconfig.o
+drivers/staging/wilc1000/wilc_wlan.c:201:19: warning: cast to restricted __be16
+drivers/staging/wilc1000/wilc_wlan.c:201:19: warning: cast to restricted __be16
+drivers/staging/wilc1000/wilc_wlan.c:201:19: warning: cast to restricted __be16
+drivers/staging/wilc1000/wilc_wlan.c:201:19: warning: cast to restricted __be16
+drivers/staging/wilc1000/wilc_wlan.c:614:38: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:614:38:    expected unsigned int [unsigned] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:614:38:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:717:30: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:717:30:    expected unsigned int [unsigned] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:717:30:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:728:24: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:728:24:    expected unsigned int [unsigned] [assigned] [usertype] header
+drivers/staging/wilc1000/wilc_wlan.c:728:24:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:784:24: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:784:24:    expected unsigned int [unsigned] [addressable] [usertype] header
+drivers/staging/wilc1000/wilc_wlan.c:784:24:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:967:22: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:967:22:    expected unsigned int [unsigned] [addressable] [usertype] addr
+drivers/staging/wilc1000/wilc_wlan.c:967:22:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_wlan.c:968:22: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_wlan.c:968:22:    expected unsigned int [unsigned] [addressable] [usertype] size
+drivers/staging/wilc1000/wilc_wlan.c:968:22:    got restricted __le32 [usertype] <noident>
+  CC [M]  drivers/staging/wilc1000/wilc_wlan.o
+drivers/staging/xgifb/XGI_main_26.c:1711:42: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/xgifb/XGI_main_26.o
+  CHECK   drivers/staging/wlan-ng/p80211wep.c
+  CC [M]  drivers/staging/wlan-ng/p80211wep.o
+  CHECK   drivers/staging/wlan-ng/p80211netdev.c
+  CHECK   drivers/staging/xgifb/vb_init.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm.c
+  CHECK   drivers/staging/wilc1000/wilc_sdio.c
+drivers/staging/xgifb/vb_init.c:866:21: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/xgifb/vb_init.o
+  CC [M]  drivers/staging/wlan-ng/p80211netdev.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm.o
+drivers/staging/wilc1000/wilc_sdio.c:371:14: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_sdio.c:371:14:    expected unsigned int [unsigned] [usertype] data
+drivers/staging/wilc1000/wilc_sdio.c:371:14:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_sdio.c:550:15: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_sdio.c:550:15:    expected unsigned int [unsigned] [usertype] <noident>
+drivers/staging/wilc1000/wilc_sdio.c:550:15:    got restricted __le32 [usertype] <noident>
+  CC [M]  drivers/staging/wilc1000/wilc_sdio.o
+  CHECK   drivers/staging/xgifb/vb_setmode.c
+  LD [M]  drivers/staging/wlan-ng/prism2_usb.o
+  CHECK   drivers/staging/wilc1000/wilc_spi.c
+  CC [M]  drivers/staging/xgifb/vb_setmode.o
+  LD [M]  drivers/staging/wilc1000/wilc1000.o
+  LD [M]  drivers/staging/wilc1000/wilc1000-sdio.o
+  CHECK   drivers/staging/rtlwifi/phydm/halphyrf_ce.c
+drivers/staging/wilc1000/wilc_spi.c:671:13: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_spi.c:671:13:    expected unsigned int [unsigned] [usertype] dat
+drivers/staging/wilc1000/wilc_spi.c:671:13:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_spi.c:692:15: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_spi.c:692:15:    expected unsigned int [unsigned] [usertype] <noident>
+drivers/staging/wilc1000/wilc_spi.c:692:15:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_spi.c:710:14: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_spi.c:710:14:    expected unsigned int [unsigned] [usertype] data
+drivers/staging/wilc1000/wilc_spi.c:710:14:    got restricted __le32 [usertype] <noident>
+drivers/staging/wilc1000/wilc_spi.c:772:15: warning: incorrect type in assignment (different base types)
+drivers/staging/wilc1000/wilc_spi.c:772:15:    expected unsigned int [unsigned] [usertype] <noident>
+drivers/staging/wilc1000/wilc_spi.c:772:15:    got restricted __le32 [usertype] <noident>
+  CC [M]  drivers/staging/wilc1000/wilc_spi.o
+  CC [M]  drivers/staging/rtlwifi/phydm/halphyrf_ce.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_edcaturbocheck.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_edcaturbocheck.o
+  LD [M]  drivers/staging/wilc1000/wilc1000-spi.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_dig.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_rainfo.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_dynamicbbpowersaving.c
+drivers/staging/rtlwifi/phydm/phydm_dig.c:483:29: warning: expression using sizeof(void)
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_dig.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_rainfo.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_dynamicbbpowersaving.o
+  LD [M]  drivers/staging/xgifb/xgifb.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_powertracking_ce.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_dynamictxpower.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_powertracking_ce.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_dynamictxpower.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_adaptivity.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_cfotracking.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_adaptivity.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_cfotracking.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_noisemonitor.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_acs.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_noisemonitor.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_acs.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_psd.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_adc_sampling.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_psd.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_adc_sampling.o
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_kfree.c
+  CHECK   drivers/staging/rtlwifi/phydm/phydm_ccx.c
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_ccx.o
+  CC [M]  drivers/staging/rtlwifi/phydm/phydm_kfree.o
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_bb.c
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_mac.c
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_bb.o
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_mac.o
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_rf.c
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/halphyrf_8822b.c
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/halhwimg8822b_rf.o
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/halphyrf_8822b.o
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/phydm_hal_api8822b.c
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/phydm_iqk_8822b.c
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/phydm_hal_api8822b.o
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/phydm_iqk_8822b.o
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/phydm_regconfig8822b.c
+  CHECK   drivers/staging/rtlwifi/phydm/rtl8822b/phydm_rtl8822b.c
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/phydm_regconfig8822b.o
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl8822b/phydm_rtl8822b.o
+  CHECK   drivers/staging/rtlwifi/phydm/rtl_phydm.c
+  CC [M]  drivers/staging/rtlwifi/phydm/rtl_phydm.o
+  LD [M]  drivers/staging/rtlwifi/r8822be.o
+  AR      drivers/staging/built-in.a
+  Building modules, stage 2.
+  MODPOST 269 modules
+WARNING: "ktime_get_real_ts64" [drivers/staging/rts5208/rts5208.ko] undefined!
+WARNING: "ns_to_timespec" [drivers/staging/rtl8723bs/r8723bs.ko] undefined!
+WARNING: "vfs_poll" [drivers/staging/comedi/drivers/serial2002.ko] undefined!
+WARNING: "ktime_get_real_ts64" [drivers/staging/comedi/comedi.ko] undefined!
+  CC      drivers/staging/comedi/comedi_pci.mod.o
+  CC      drivers/staging/comedi/comedi.mod.o
+  CC      drivers/staging/comedi/comedi_usb.mod.o
+  CC      drivers/staging/comedi/comedi_pcmcia.mod.o
+  CC      drivers/staging/comedi/drivers/8255.mod.o
+  CC      drivers/staging/comedi/drivers/8255_pci.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_1032.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_1500.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_1516.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_1564.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_16xx.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_2032.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_2200.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_3120.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_3501.mod.o
+  CC      drivers/staging/comedi/drivers/addi_apci_3xxx.mod.o
+  CC      drivers/staging/comedi/drivers/addi_watchdog.mod.o
+  CC      drivers/staging/comedi/drivers/adl_pci6208.mod.o
+  CC      drivers/staging/comedi/drivers/adl_pci7x3x.mod.o
+  CC      drivers/staging/comedi/drivers/adl_pci8164.mod.o
+  CC      drivers/staging/comedi/drivers/adl_pci9111.mod.o
+  CC      drivers/staging/comedi/drivers/adl_pci9118.mod.o
+  CC      drivers/staging/comedi/drivers/adq12b.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci1710.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci1720.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci1723.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci1760.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci1724.mod.o
+  CC      drivers/staging/comedi/drivers/aio_aio12_8.mod.o
+  CC      drivers/staging/comedi/drivers/adv_pci_dio.mod.o
+  CC      drivers/staging/comedi/drivers/aio_iiro_16.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_dio200.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_dio200_common.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pc236.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_dio200_pci.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pc236_common.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pc263.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pci230.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pci224.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pci236.mod.o
+  CC      drivers/staging/comedi/drivers/amplc_pci263.mod.o
+  CC      drivers/staging/comedi/drivers/c6xdigio.mod.o
+  CC      drivers/staging/comedi/drivers/cb_das16_cs.mod.o
+  CC      drivers/staging/comedi/drivers/cb_pcidas.mod.o
+  CC      drivers/staging/comedi/drivers/cb_pcidas64.mod.o
+  CC      drivers/staging/comedi/drivers/cb_pcidda.mod.o
+  CC      drivers/staging/comedi/drivers/cb_pcimdas.mod.o
+  CC      drivers/staging/comedi/drivers/cb_pcimdda.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_8254.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_8255.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_bond.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_isadma.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_parport.mod.o
+  CC      drivers/staging/comedi/drivers/comedi_test.mod.o
+  CC      drivers/staging/comedi/drivers/contec_pci_dio.mod.o
+  CC      drivers/staging/comedi/drivers/dac02.mod.o
+  CC      drivers/staging/comedi/drivers/daqboard2000.mod.o
+  CC      drivers/staging/comedi/drivers/das08.mod.o
+  CC      drivers/staging/comedi/drivers/das08_cs.mod.o
+  CC      drivers/staging/comedi/drivers/das08_isa.mod.o
+  CC      drivers/staging/comedi/drivers/das08_pci.mod.o
+  CC      drivers/staging/comedi/drivers/das16.mod.o
+  CC      drivers/staging/comedi/drivers/das16m1.mod.o
+  CC      drivers/staging/comedi/drivers/das1800.mod.o
+  CC      drivers/staging/comedi/drivers/das6402.mod.o
+  CC      drivers/staging/comedi/drivers/das800.mod.o
+  CC      drivers/staging/comedi/drivers/dmm32at.mod.o
+  CC      drivers/staging/comedi/drivers/dt2801.mod.o
+  CC      drivers/staging/comedi/drivers/dt2811.mod.o
+  CC      drivers/staging/comedi/drivers/dt2814.mod.o
+  CC      drivers/staging/comedi/drivers/dt2815.mod.o
+  CC      drivers/staging/comedi/drivers/dt2817.mod.o
+  CC      drivers/staging/comedi/drivers/dt282x.mod.o
+  CC      drivers/staging/comedi/drivers/dt3000.mod.o
+  CC      drivers/staging/comedi/drivers/dt9812.mod.o
+  CC      drivers/staging/comedi/drivers/dyna_pci10xx.mod.o
+  CC      drivers/staging/comedi/drivers/fl512.mod.o
+  CC      drivers/staging/comedi/drivers/gsc_hpdi.mod.o
+  CC      drivers/staging/comedi/drivers/icp_multi.mod.o
+  CC      drivers/staging/comedi/drivers/ii_pci20kc.mod.o
+  CC      drivers/staging/comedi/drivers/jr3_pci.mod.o
+  CC      drivers/staging/comedi/drivers/ke_counter.mod.o
+  CC      drivers/staging/comedi/drivers/me4000.mod.o
+  CC      drivers/staging/comedi/drivers/me_daq.mod.o
+  CC      drivers/staging/comedi/drivers/mf6x4.mod.o
+  CC      drivers/staging/comedi/drivers/mite.mod.o
+  CC      drivers/staging/comedi/drivers/mpc624.mod.o
+  CC      drivers/staging/comedi/drivers/multiq3.mod.o
+  CC      drivers/staging/comedi/drivers/ni_6527.mod.o
+  CC      drivers/staging/comedi/drivers/ni_65xx.mod.o
+  CC      drivers/staging/comedi/drivers/ni_660x.mod.o
+  CC      drivers/staging/comedi/drivers/ni_670x.mod.o
+  CC      drivers/staging/comedi/drivers/ni_at_a2150.mod.o
+  CC      drivers/staging/comedi/drivers/ni_at_ao.mod.o
+  CC      drivers/staging/comedi/drivers/ni_atmio.mod.o
+  CC      drivers/staging/comedi/drivers/ni_atmio16d.mod.o
+  CC      drivers/staging/comedi/drivers/ni_daq_700.mod.o
+  CC      drivers/staging/comedi/drivers/ni_daq_dio24.mod.o
+  CC      drivers/staging/comedi/drivers/ni_labpc.mod.o
+  CC      drivers/staging/comedi/drivers/ni_labpc_common.mod.o
+  CC      drivers/staging/comedi/drivers/ni_labpc_cs.mod.o
+  CC      drivers/staging/comedi/drivers/ni_labpc_isadma.mod.o
+  CC      drivers/staging/comedi/drivers/ni_labpc_pci.mod.o
+  CC      drivers/staging/comedi/drivers/ni_mio_cs.mod.o
+  CC      drivers/staging/comedi/drivers/ni_pcidio.mod.o
+  CC      drivers/staging/comedi/drivers/ni_pcimio.mod.o
+  CC      drivers/staging/comedi/drivers/ni_tio.mod.o
+  CC      drivers/staging/comedi/drivers/ni_tiocmd.mod.o
+  CC      drivers/staging/comedi/drivers/ni_usb6501.mod.o
+  CC      drivers/staging/comedi/drivers/pcl711.mod.o
+  CC      drivers/staging/comedi/drivers/pcl724.mod.o
+  CC      drivers/staging/comedi/drivers/pcl726.mod.o
+  CC      drivers/staging/comedi/drivers/pcl730.mod.o
+  CC      drivers/staging/comedi/drivers/pcl812.mod.o
+  CC      drivers/staging/comedi/drivers/pcl816.mod.o
+  CC      drivers/staging/comedi/drivers/pcl818.mod.o
+  CC      drivers/staging/comedi/drivers/pcm3724.mod.o
+  CC      drivers/staging/comedi/drivers/pcmad.mod.o
+  CC      drivers/staging/comedi/drivers/pcmda12.mod.o
+  CC      drivers/staging/comedi/drivers/pcmmio.mod.o
+  CC      drivers/staging/comedi/drivers/pcmuio.mod.o
+  CC      drivers/staging/comedi/drivers/quatech_daqp_cs.mod.o
+  CC      drivers/staging/comedi/drivers/rtd520.mod.o
+  CC      drivers/staging/comedi/drivers/rti800.mod.o
+  CC      drivers/staging/comedi/drivers/rti802.mod.o
+  CC      drivers/staging/comedi/drivers/s526.mod.o
+  CC      drivers/staging/comedi/drivers/s626.mod.o
+  CC      drivers/staging/comedi/drivers/serial2002.mod.o
+  CC      drivers/staging/comedi/drivers/usbdux.mod.o
+  CC      drivers/staging/comedi/drivers/usbduxfast.mod.o
+  CC      drivers/staging/comedi/drivers/usbduxsigma.mod.o
+  CC      drivers/staging/comedi/drivers/vmk80xx.mod.o
+  CC      drivers/staging/comedi/kcomedilib/kcomedilib.mod.o
+  CC      drivers/staging/dgnc/dgnc.mod.o
+  CC      drivers/staging/fbtft/fb_agm1264k-fl.mod.o
+  CC      drivers/staging/fbtft/fb_bd663474.mod.o
+  CC      drivers/staging/fbtft/fb_hx8340bn.mod.o
+  CC      drivers/staging/fbtft/fb_hx8347d.mod.o
+  CC      drivers/staging/fbtft/fb_hx8353d.mod.o
+  CC      drivers/staging/fbtft/fb_hx8357d.mod.o
+  CC      drivers/staging/fbtft/fb_ili9163.mod.o
+  CC      drivers/staging/fbtft/fb_ili9320.mod.o
+  CC      drivers/staging/fbtft/fb_ili9325.mod.o
+  CC      drivers/staging/fbtft/fb_ili9340.mod.o
+  CC      drivers/staging/fbtft/fb_ili9341.mod.o
+  CC      drivers/staging/fbtft/fb_ili9481.mod.o
+  CC      drivers/staging/fbtft/fb_ili9486.mod.o
+  CC      drivers/staging/fbtft/fb_pcd8544.mod.o
+  CC      drivers/staging/fbtft/fb_ra8875.mod.o
+  CC      drivers/staging/fbtft/fb_s6d02a1.mod.o
+  CC      drivers/staging/fbtft/fb_s6d1121.mod.o
+  CC      drivers/staging/fbtft/fb_sh1106.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1289.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1305.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1306.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1325.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1331.mod.o
+  CC      drivers/staging/fbtft/fb_ssd1351.mod.o
+  CC      drivers/staging/fbtft/fb_st7735r.mod.o
+  CC      drivers/staging/fbtft/fb_st7789v.mod.o
+  CC      drivers/staging/fbtft/fb_tinylcd.mod.o
+  CC      drivers/staging/fbtft/fb_tls8204.mod.o
+  CC      drivers/staging/fbtft/fb_uc1611.mod.o
+  CC      drivers/staging/fbtft/fb_uc1701.mod.o
+  CC      drivers/staging/fbtft/fb_upd161704.mod.o
+  CC      drivers/staging/fbtft/fb_watterott.mod.o
+  CC      drivers/staging/fbtft/fbtft.mod.o
+  CC      drivers/staging/fbtft/fbtft_device.mod.o
+  CC      drivers/staging/fbtft/flexfb.mod.o
+  CC      drivers/staging/fwserial/firewire-serial.mod.o
+  CC      drivers/staging/gdm724x/gdmtty.mod.o
+  CC      drivers/staging/gdm724x/gdmulte.mod.o
+  CC      drivers/staging/greybus/gb-audio-apbridgea.mod.o
+  CC      drivers/staging/greybus/gb-audio-gb.mod.o
+  CC      drivers/staging/greybus/gb-audio-manager.mod.o
+  CC      drivers/staging/greybus/gb-bootrom.mod.o
+  CC      drivers/staging/greybus/gb-es2.mod.o
+  CC      drivers/staging/greybus/gb-firmware.mod.o
+  CC      drivers/staging/greybus/gb-gbphy.mod.o
+  CC      drivers/staging/greybus/gb-gpio.mod.o
+  CC      drivers/staging/greybus/gb-i2c.mod.o
+  CC      drivers/staging/greybus/gb-hid.mod.o
+  CC      drivers/staging/greybus/gb-light.mod.o
+  CC      drivers/staging/greybus/gb-log.mod.o
+  CC      drivers/staging/greybus/gb-power-supply.mod.o
+  CC      drivers/staging/greybus/gb-loopback.mod.o
+  CC      drivers/staging/greybus/gb-pwm.mod.o
+  CC      drivers/staging/greybus/gb-raw.mod.o
+  CC      drivers/staging/greybus/gb-sdio.mod.o
+  CC      drivers/staging/greybus/gb-spi.mod.o
+  CC      drivers/staging/greybus/gb-spilib.mod.o
+  CC      drivers/staging/greybus/gb-uart.mod.o
+  CC      drivers/staging/greybus/gb-usb.mod.o
+  CC      drivers/staging/greybus/gb-vibrator.mod.o
+  CC      drivers/staging/greybus/greybus.mod.o
+  CC      drivers/staging/gs_fpgaboot/gs_fpga.mod.o
+  CC      drivers/staging/iio/accel/adis16203.mod.o
+  CC      drivers/staging/iio/accel/adis16240.mod.o
+  CC      drivers/staging/iio/adc/ad7192.mod.o
+  CC      drivers/staging/iio/adc/ad7280a.mod.o
+  CC      drivers/staging/iio/adc/ad7606.mod.o
+  CC      drivers/staging/iio/adc/ad7606_par.mod.o
+  CC      drivers/staging/iio/adc/ad7606_spi.mod.o
+  CC      drivers/staging/iio/adc/ad7780.mod.o
+  CC      drivers/staging/iio/adc/ad7816.mod.o
+  CC      drivers/staging/iio/addac/adt7316-i2c.mod.o
+  CC      drivers/staging/iio/addac/adt7316-spi.mod.o
+  CC      drivers/staging/iio/addac/adt7316.mod.o
+  CC      drivers/staging/iio/cdc/ad7150.mod.o
+  CC      drivers/staging/iio/cdc/ad7152.mod.o
+  CC      drivers/staging/iio/cdc/ad7746.mod.o
+  CC      drivers/staging/iio/frequency/ad9832.mod.o
+  CC      drivers/staging/iio/frequency/ad9834.mod.o
+  CC      drivers/staging/iio/gyro/adis16060.mod.o
+  CC      drivers/staging/iio/impedance-analyzer/ad5933.mod.o
+  CC      drivers/staging/iio/meter/ade7854-i2c.mod.o
+  CC      drivers/staging/iio/meter/ade7854-spi.mod.o
+  CC      drivers/staging/iio/meter/ade7854.mod.o
+  CC      drivers/staging/iio/resolver/ad2s1210.mod.o
+  CC      drivers/staging/iio/resolver/ad2s90.mod.o
+  CC      drivers/staging/ks7010/ks7010.mod.o
+  CC      drivers/staging/media/bcm2048/radio-bcm2048.mod.o
+  CC      drivers/staging/media/imx074/imx074.mod.o
+  CC      drivers/staging/media/mt9t031/mt9t031.mod.o
+  CC      drivers/staging/media/zoran/videocodec.mod.o
+  CC      drivers/staging/media/zoran/zr36016.mod.o
+  CC      drivers/staging/media/zoran/zr36050.mod.o
+  CC      drivers/staging/media/zoran/zr36060.mod.o
+  CC      drivers/staging/media/zoran/zr36067.mod.o
+  CC      drivers/staging/most/most_core.mod.o
+  CC      drivers/staging/mt29f_spinand/mt29f_spinand.mod.o
+  CC      drivers/staging/pi433/pi433.mod.o
+  CC      drivers/staging/rtl8188eu/r8188eu.mod.o
+  CC      drivers/staging/rtl8192e/rtl8192e/r8192e_pci.mod.o
+  CC      drivers/staging/rtl8192e/rtllib.mod.o
+  CC      drivers/staging/rtl8192e/rtllib_crypt_ccmp.mod.o
+  CC      drivers/staging/rtl8192e/rtllib_crypt_tkip.mod.o
+  CC      drivers/staging/rtl8192e/rtllib_crypt_wep.mod.o
+  CC      drivers/staging/rtl8192u/r8192u_usb.mod.o
+  CC      drivers/staging/rtl8712/r8712u.mod.o
+  CC      drivers/staging/rtl8723bs/r8723bs.mod.o
+  CC      drivers/staging/rtlwifi/r8822be.mod.o
+  CC      drivers/staging/rts5208/rts5208.mod.o
+  CC      drivers/staging/sm750fb/sm750fb.mod.o
+  CC      drivers/staging/speakup/speakup.mod.o
+  CC      drivers/staging/speakup/speakup_acntsa.mod.o
+  CC      drivers/staging/speakup/speakup_apollo.mod.o
+  CC      drivers/staging/speakup/speakup_audptr.mod.o
+  CC      drivers/staging/speakup/speakup_bns.mod.o
+  CC      drivers/staging/speakup/speakup_decext.mod.o
+  CC      drivers/staging/speakup/speakup_dectlk.mod.o
+  CC      drivers/staging/speakup/speakup_dummy.mod.o
+  CC      drivers/staging/speakup/speakup_ltlk.mod.o
+  CC      drivers/staging/speakup/speakup_soft.mod.o
+  CC      drivers/staging/speakup/speakup_spkout.mod.o
+  CC      drivers/staging/speakup/speakup_txprt.mod.o
+  CC      drivers/staging/typec/tcpci.mod.o
+  CC      drivers/staging/unisys/visorhba/visorhba.mod.o
+  CC      drivers/staging/unisys/visorinput/visorinput.mod.o
+  CC      drivers/staging/unisys/visornic/visornic.mod.o
+  CC      drivers/staging/vboxvideo/vboxvideo.mod.o
+  CC      drivers/staging/vme/devices/vme_user.mod.o
+  CC      drivers/staging/vt6655/vt6655_stage.mod.o
+  CC      drivers/staging/vt6656/vt6656_stage.mod.o
+  CC      drivers/staging/wilc1000/wilc1000-sdio.mod.o
+  CC      drivers/staging/wilc1000/wilc1000-spi.mod.o
+  CC      drivers/staging/wilc1000/wilc1000.mod.o
+  CC      drivers/staging/wlan-ng/prism2_usb.mod.o
+  CC      drivers/staging/xgifb/xgifb.mod.o
+  LD [M]  drivers/staging/comedi/comedi.ko
+  LD [M]  drivers/staging/comedi/comedi_pci.ko
+  LD [M]  drivers/staging/comedi/comedi_pcmcia.ko
+  LD [M]  drivers/staging/comedi/comedi_usb.ko
+  LD [M]  drivers/staging/comedi/drivers/8255.ko
+  LD [M]  drivers/staging/comedi/drivers/8255_pci.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_1032.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_1500.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_1516.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_1564.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_16xx.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_2032.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_2200.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_3120.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_3501.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_apci_3xxx.ko
+  LD [M]  drivers/staging/comedi/drivers/addi_watchdog.ko
+  LD [M]  drivers/staging/comedi/drivers/adl_pci6208.ko
+  LD [M]  drivers/staging/comedi/drivers/adl_pci7x3x.ko
+  LD [M]  drivers/staging/comedi/drivers/adl_pci8164.ko
+  LD [M]  drivers/staging/comedi/drivers/adl_pci9111.ko
+  LD [M]  drivers/staging/comedi/drivers/adl_pci9118.ko
+  LD [M]  drivers/staging/comedi/drivers/adq12b.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci1710.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci1723.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci1720.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci1724.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci1760.ko
+  LD [M]  drivers/staging/comedi/drivers/adv_pci_dio.ko
+  LD [M]  drivers/staging/comedi/drivers/aio_aio12_8.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_dio200.ko
+  LD [M]  drivers/staging/comedi/drivers/aio_iiro_16.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_dio200_common.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_dio200_pci.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pc236.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pc236_common.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pc263.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pci224.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pci230.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pci236.ko
+  LD [M]  drivers/staging/comedi/drivers/amplc_pci263.ko
+  LD [M]  drivers/staging/comedi/drivers/c6xdigio.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_das16_cs.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_pcidas.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_pcidas64.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_pcidda.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_pcimdas.ko
+  LD [M]  drivers/staging/comedi/drivers/cb_pcimdda.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_8254.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_8255.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_isadma.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_bond.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_parport.ko
+  LD [M]  drivers/staging/comedi/drivers/comedi_test.ko
+  LD [M]  drivers/staging/comedi/drivers/contec_pci_dio.ko
+  LD [M]  drivers/staging/comedi/drivers/daqboard2000.ko
+  LD [M]  drivers/staging/comedi/drivers/das08.ko
+  LD [M]  drivers/staging/comedi/drivers/dac02.ko
+  LD [M]  drivers/staging/comedi/drivers/das08_cs.ko
+  LD [M]  drivers/staging/comedi/drivers/das08_isa.ko
+  LD [M]  drivers/staging/comedi/drivers/das16.ko
+  LD [M]  drivers/staging/comedi/drivers/das08_pci.ko
+  LD [M]  drivers/staging/comedi/drivers/das16m1.ko
+  LD [M]  drivers/staging/comedi/drivers/das1800.ko
+  LD [M]  drivers/staging/comedi/drivers/das6402.ko
+  LD [M]  drivers/staging/comedi/drivers/das800.ko
+  LD [M]  drivers/staging/comedi/drivers/dmm32at.ko
+  LD [M]  drivers/staging/comedi/drivers/dt2801.ko
+  LD [M]  drivers/staging/comedi/drivers/dt2811.ko
+  LD [M]  drivers/staging/comedi/drivers/dt2814.ko
+  LD [M]  drivers/staging/comedi/drivers/dt2815.ko
+  LD [M]  drivers/staging/comedi/drivers/dt2817.ko
+  LD [M]  drivers/staging/comedi/drivers/dt282x.ko
+  LD [M]  drivers/staging/comedi/drivers/dt3000.ko
+  LD [M]  drivers/staging/comedi/drivers/dt9812.ko
+  LD [M]  drivers/staging/comedi/drivers/fl512.ko
+  LD [M]  drivers/staging/comedi/drivers/dyna_pci10xx.ko
+  LD [M]  drivers/staging/comedi/drivers/gsc_hpdi.ko
+  LD [M]  drivers/staging/comedi/drivers/icp_multi.ko
+  LD [M]  drivers/staging/comedi/drivers/ii_pci20kc.ko
+  LD [M]  drivers/staging/comedi/drivers/jr3_pci.ko
+  LD [M]  drivers/staging/comedi/drivers/ke_counter.ko
+  LD [M]  drivers/staging/comedi/drivers/me4000.ko
+  LD [M]  drivers/staging/comedi/drivers/me_daq.ko
+  LD [M]  drivers/staging/comedi/drivers/mf6x4.ko
+  LD [M]  drivers/staging/comedi/drivers/mite.ko
+  LD [M]  drivers/staging/comedi/drivers/mpc624.ko
+  LD [M]  drivers/staging/comedi/drivers/multiq3.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_6527.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_65xx.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_660x.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_670x.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_at_a2150.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_at_ao.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_atmio.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_daq_700.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_atmio16d.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_daq_dio24.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_labpc.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_labpc_common.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_labpc_cs.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_labpc_isadma.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_labpc_pci.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_mio_cs.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_pcidio.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_pcimio.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_tio.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_tiocmd.ko
+  LD [M]  drivers/staging/comedi/drivers/ni_usb6501.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl711.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl724.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl726.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl730.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl812.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl816.ko
+  LD [M]  drivers/staging/comedi/drivers/pcl818.ko
+  LD [M]  drivers/staging/comedi/drivers/pcm3724.ko
+  LD [M]  drivers/staging/comedi/drivers/pcmad.ko
+  LD [M]  drivers/staging/comedi/drivers/pcmmio.ko
+  LD [M]  drivers/staging/comedi/drivers/pcmda12.ko
+  LD [M]  drivers/staging/comedi/drivers/pcmuio.ko
+  LD [M]  drivers/staging/comedi/drivers/quatech_daqp_cs.ko
+  LD [M]  drivers/staging/comedi/drivers/rtd520.ko
+  LD [M]  drivers/staging/comedi/drivers/rti800.ko
+  LD [M]  drivers/staging/comedi/drivers/rti802.ko
+  LD [M]  drivers/staging/comedi/drivers/s526.ko
+  LD [M]  drivers/staging/comedi/drivers/s626.ko
+  LD [M]  drivers/staging/comedi/drivers/serial2002.ko
+  LD [M]  drivers/staging/comedi/drivers/usbdux.ko
+  LD [M]  drivers/staging/comedi/drivers/usbduxfast.ko
+  LD [M]  drivers/staging/comedi/drivers/usbduxsigma.ko
+  LD [M]  drivers/staging/comedi/drivers/vmk80xx.ko
+  LD [M]  drivers/staging/comedi/kcomedilib/kcomedilib.ko
+  LD [M]  drivers/staging/dgnc/dgnc.ko
+  LD [M]  drivers/staging/fbtft/fb_agm1264k-fl.ko
+  LD [M]  drivers/staging/fbtft/fb_bd663474.ko
+  LD [M]  drivers/staging/fbtft/fb_hx8340bn.ko
+  LD [M]  drivers/staging/fbtft/fb_hx8347d.ko
+  LD [M]  drivers/staging/fbtft/fb_hx8353d.ko
+  LD [M]  drivers/staging/fbtft/fb_hx8357d.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9163.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9320.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9325.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9340.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9341.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9481.ko
+  LD [M]  drivers/staging/fbtft/fb_ili9486.ko
+  LD [M]  drivers/staging/fbtft/fb_pcd8544.ko
+  LD [M]  drivers/staging/fbtft/fb_ra8875.ko
+  LD [M]  drivers/staging/fbtft/fb_s6d02a1.ko
+  LD [M]  drivers/staging/fbtft/fb_s6d1121.ko
+  LD [M]  drivers/staging/fbtft/fb_sh1106.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1289.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1305.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1306.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1325.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1331.ko
+  LD [M]  drivers/staging/fbtft/fb_ssd1351.ko
+  LD [M]  drivers/staging/fbtft/fb_st7735r.ko
+  LD [M]  drivers/staging/fbtft/fb_st7789v.ko
+  LD [M]  drivers/staging/fbtft/fb_tinylcd.ko
+  LD [M]  drivers/staging/fbtft/fb_tls8204.ko
+  LD [M]  drivers/staging/fbtft/fb_uc1611.ko
+  LD [M]  drivers/staging/fbtft/fb_uc1701.ko
+  LD [M]  drivers/staging/fbtft/fb_upd161704.ko
+  LD [M]  drivers/staging/fbtft/fb_watterott.ko
+  LD [M]  drivers/staging/fbtft/fbtft.ko
+  LD [M]  drivers/staging/fbtft/fbtft_device.ko
+  LD [M]  drivers/staging/fbtft/flexfb.ko
+  LD [M]  drivers/staging/fwserial/firewire-serial.ko
+  LD [M]  drivers/staging/gdm724x/gdmtty.ko
+  LD [M]  drivers/staging/gdm724x/gdmulte.ko
+  LD [M]  drivers/staging/greybus/gb-audio-gb.ko
+  LD [M]  drivers/staging/greybus/gb-audio-apbridgea.ko
+  LD [M]  drivers/staging/greybus/gb-audio-manager.ko
+  LD [M]  drivers/staging/greybus/gb-bootrom.ko
+  LD [M]  drivers/staging/greybus/gb-es2.ko
+  LD [M]  drivers/staging/greybus/gb-firmware.ko
+  LD [M]  drivers/staging/greybus/gb-gbphy.ko
+  LD [M]  drivers/staging/greybus/gb-gpio.ko
+  LD [M]  drivers/staging/greybus/gb-hid.ko
+  LD [M]  drivers/staging/greybus/gb-i2c.ko
+  LD [M]  drivers/staging/greybus/gb-light.ko
+  LD [M]  drivers/staging/greybus/gb-log.ko
+  LD [M]  drivers/staging/greybus/gb-loopback.ko
+  LD [M]  drivers/staging/greybus/gb-power-supply.ko
+  LD [M]  drivers/staging/greybus/gb-pwm.ko
+  LD [M]  drivers/staging/greybus/gb-raw.ko
+  LD [M]  drivers/staging/greybus/gb-sdio.ko
+  LD [M]  drivers/staging/greybus/gb-spi.ko
+  LD [M]  drivers/staging/greybus/gb-spilib.ko
+  LD [M]  drivers/staging/greybus/gb-uart.ko
+  LD [M]  drivers/staging/greybus/gb-usb.ko
+  LD [M]  drivers/staging/greybus/gb-vibrator.ko
+  LD [M]  drivers/staging/greybus/greybus.ko
+  LD [M]  drivers/staging/gs_fpgaboot/gs_fpga.ko
+  LD [M]  drivers/staging/iio/accel/adis16203.ko
+  LD [M]  drivers/staging/iio/accel/adis16240.ko
+  LD [M]  drivers/staging/iio/adc/ad7192.ko
+  LD [M]  drivers/staging/iio/adc/ad7280a.ko
+  LD [M]  drivers/staging/iio/adc/ad7606.ko
+  LD [M]  drivers/staging/iio/adc/ad7606_par.ko
+  LD [M]  drivers/staging/iio/adc/ad7606_spi.ko
+  LD [M]  drivers/staging/iio/adc/ad7780.ko
+  LD [M]  drivers/staging/iio/adc/ad7816.ko
+  LD [M]  drivers/staging/iio/addac/adt7316-i2c.ko
+  LD [M]  drivers/staging/iio/addac/adt7316-spi.ko
+  LD [M]  drivers/staging/iio/addac/adt7316.ko
+  LD [M]  drivers/staging/iio/cdc/ad7150.ko
+  LD [M]  drivers/staging/iio/cdc/ad7152.ko
+  LD [M]  drivers/staging/iio/cdc/ad7746.ko
+  LD [M]  drivers/staging/iio/frequency/ad9832.ko
+  LD [M]  drivers/staging/iio/frequency/ad9834.ko
+  LD [M]  drivers/staging/iio/gyro/adis16060.ko
+  LD [M]  drivers/staging/iio/impedance-analyzer/ad5933.ko
+  LD [M]  drivers/staging/iio/meter/ade7854-i2c.ko
+  LD [M]  drivers/staging/iio/meter/ade7854-spi.ko
+  LD [M]  drivers/staging/iio/meter/ade7854.ko
+  LD [M]  drivers/staging/iio/resolver/ad2s1210.ko
+  LD [M]  drivers/staging/iio/resolver/ad2s90.ko
+  LD [M]  drivers/staging/ks7010/ks7010.ko
+  LD [M]  drivers/staging/media/bcm2048/radio-bcm2048.ko
+  LD [M]  drivers/staging/media/imx074/imx074.ko
+  LD [M]  drivers/staging/media/mt9t031/mt9t031.ko
+  LD [M]  drivers/staging/media/zoran/videocodec.ko
+  LD [M]  drivers/staging/media/zoran/zr36016.ko
+  LD [M]  drivers/staging/media/zoran/zr36050.ko
+  LD [M]  drivers/staging/media/zoran/zr36060.ko
+  LD [M]  drivers/staging/media/zoran/zr36067.ko
+  LD [M]  drivers/staging/most/most_core.ko
+  LD [M]  drivers/staging/mt29f_spinand/mt29f_spinand.ko
+  LD [M]  drivers/staging/pi433/pi433.ko
+  LD [M]  drivers/staging/rtl8188eu/r8188eu.ko
+  LD [M]  drivers/staging/rtl8192e/rtl8192e/r8192e_pci.ko
+  LD [M]  drivers/staging/rtl8192e/rtllib.ko
+  LD [M]  drivers/staging/rtl8192e/rtllib_crypt_ccmp.ko
+  LD [M]  drivers/staging/rtl8192e/rtllib_crypt_tkip.ko
+  LD [M]  drivers/staging/rtl8192e/rtllib_crypt_wep.ko
+  LD [M]  drivers/staging/rtl8192u/r8192u_usb.ko
+  LD [M]  drivers/staging/rtl8712/r8712u.ko
+  LD [M]  drivers/staging/rtl8723bs/r8723bs.ko
+  LD [M]  drivers/staging/rtlwifi/r8822be.ko
+  LD [M]  drivers/staging/rts5208/rts5208.ko
+  LD [M]  drivers/staging/sm750fb/sm750fb.ko
+  LD [M]  drivers/staging/speakup/speakup.ko
+  LD [M]  drivers/staging/speakup/speakup_acntsa.ko
+  LD [M]  drivers/staging/speakup/speakup_apollo.ko
+  LD [M]  drivers/staging/speakup/speakup_bns.ko
+  LD [M]  drivers/staging/speakup/speakup_audptr.ko
+  LD [M]  drivers/staging/speakup/speakup_decext.ko
+  LD [M]  drivers/staging/speakup/speakup_dectlk.ko
+  LD [M]  drivers/staging/speakup/speakup_dummy.ko
+  LD [M]  drivers/staging/speakup/speakup_ltlk.ko
+  LD [M]  drivers/staging/speakup/speakup_soft.ko
+  LD [M]  drivers/staging/speakup/speakup_spkout.ko
+  LD [M]  drivers/staging/speakup/speakup_txprt.ko
+  LD [M]  drivers/staging/typec/tcpci.ko
+  LD [M]  drivers/staging/unisys/visorinput/visorinput.ko
+  LD [M]  drivers/staging/unisys/visorhba/visorhba.ko
+  LD [M]  drivers/staging/unisys/visornic/visornic.ko
+  LD [M]  drivers/staging/vboxvideo/vboxvideo.ko
+  LD [M]  drivers/staging/vme/devices/vme_user.ko
+  LD [M]  drivers/staging/vt6655/vt6655_stage.ko
+  LD [M]  drivers/staging/vt6656/vt6656_stage.ko
+  LD [M]  drivers/staging/wilc1000/wilc1000-sdio.ko
+  LD [M]  drivers/staging/wilc1000/wilc1000-spi.ko
+  LD [M]  drivers/staging/wilc1000/wilc1000.ko
+  LD [M]  drivers/staging/wlan-ng/prism2_usb.ko
+  LD [M]  drivers/staging/xgifb/xgifb.ko

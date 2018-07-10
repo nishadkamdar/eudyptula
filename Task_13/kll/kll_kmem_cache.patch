@@ -1,0 +1,72 @@
+diff --git a/../../Task_12/kll/kll.c b/kll.c
+index f8db590..3a853fd 100644
+--- a/../../Task_12/kll/kll.c
++++ b/kll.c
+@@ -12,6 +12,7 @@ struct identity {
+ };
+ 
+ LIST_HEAD(my_id_list);
++static struct kmem_cache *kll_cache;
+ 
+ static int identity_create(char *name, int id)
+ {
+@@ -19,7 +20,7 @@ static int identity_create(char *name, int id)
+ 
+ 	if (strlen(name)+1 > 20)
+ 		return -ENOMEM;
+-	temp_id = kmalloc(sizeof(struct identity), GFP_KERNEL);
++	temp_id = kmem_cache_alloc(kll_cache, GFP_KERNEL);
+ 	if (temp_id == NULL)
+ 		return -ENOMEM;
+ 
+@@ -50,15 +51,26 @@ void identity_destroy(int id)
+ 	list_for_each_entry(id_str_ptr, &my_id_list, mylist) {
+ 		if (id_str_ptr->id == id) {
+ 			__list_del_entry(&id_str_ptr->mylist);
+-			kfree(id_str_ptr);
++			kmem_cache_free(kll_cache, id_str_ptr);
+ 		}
+ 	}
+ }
++static void kll_const(void *addr)
++{
++	memset(addr, 0, sizeof(struct identity));
++}
+ 
+ int __init linked_list_init(void)
+ {
+ 	struct identity *temp;
+ 
++	kll_cache = kmem_cache_create("kll", sizeof(struct identity), 0,
++			SLAB_HWCACHE_ALIGN, kll_const);
++	if (!kll_cache) {
++		pr_debug("unable to allocate memory\n");
++		return -ENOMEM;
++	}
++
+ 	if (identity_create("Alice", 1) < 0)
+ 		pr_debug("unable to allocate memory\n");
+ 
+@@ -75,18 +87,20 @@ int __init linked_list_init(void)
+ 	pr_debug("id 3 = %s\n", temp->name);
+ 
+ 	temp = identity_find(42);
+-	if (temp == NULL)
+-		pr_debug("id 42 not found\n");
++	pr_debug("id 42 not found\n");
+ 
+ 	identity_destroy(2);
+ 	identity_destroy(1);
+ 	identity_destroy(10);
+ 	identity_destroy(42);
+ 	identity_destroy(3);
++
++	return 0;
+ }
+ 
+ void __exit linked_list_exit(void)
+ {
++	kmem_cache_destroy(kll_cache);
+ 	pr_debug("Goodbye, Kernel World!\n");
+ }
+ 

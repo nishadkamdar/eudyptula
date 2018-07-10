@@ -1,0 +1,38 @@
+In order to create a patch, git commit -s the changes with the comment in
+the following form.
+
+======================================================================================================================
+version: add eudyptula to version string /* this is automatically taken as subject line by git format-patch command */
+    
+This is Task 3 of the eudyptula challenge. /* This is taken as description */
+The version string is appended by eudyptula.
+======================================================================================================================
+
+This is the output of the git format-patch after commit:
+
+====================================================================================================
+From ea2c8c5f896c0381d5dedaa33a62d23a35fb7c69 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Tue, 8 May 2018 22:05:39 +0530
+Subject: [PATCH] version: add eudyptula to version string
+
+This is Task 3 of the eudyptula challenge.
+The version string is appended by eudyptula.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 1c5d5d8c45e2..b2642e45586c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 16
+ SUBLEVEL = 7
+-EXTRAVERSION =
++EXTRAVERSION = eudyptula
+
+=====================================================================================================

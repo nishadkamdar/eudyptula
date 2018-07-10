@@ -1,0 +1,73 @@
+From f8b5e6edeaf965c5f6c2ddee4236dbe1015d3091 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Tue, 5 Jun 2018 20:11:07 +0530
+Subject: [PATCH] process: Add a new field to the core kernel task data
+ structure
+
+Add a new field "id" to the core kernel task data
+structure. Add a new proc file for every task
+called, "id", located in the /proc/${PID}/
+directory for that task. Part of the eudyptula
+challenge.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ fs/proc/base.c        | 8 ++++++++
+ include/linux/sched.h | 1 +
+ kernel/fork.c         | 2 ++
+ 3 files changed, 11 insertions(+)
+
+diff --git a/fs/proc/base.c b/fs/proc/base.c
+index c4ac4a997cf8..b156b473f6b1 100644
+--- a/fs/proc/base.c
++++ b/fs/proc/base.c
+@@ -2906,6 +2906,13 @@ static int proc_stack_depth(struct seq_file *m, struct pid_namespace *ns,
+ }
+ #endif /* CONFIG_STACKLEAK_METRICS */
+ 
++static int proc_eudyptula_id(struct seq_file *m, struct pid_namespace *ns,
++			     struct pid *pid, struct task_struct *task)
++{
++	seq_printf(m, "id: %llu\n", task->id++);
++	return 0;
++}
++
+ /*
+  * Thread groups
+  */
+@@ -3010,6 +3017,7 @@ static const struct pid_entry tgid_base_stuff[] = {
+ #ifdef CONFIG_STACKLEAK_METRICS
+ 	ONE("stack_depth", S_IRUGO, proc_stack_depth),
+ #endif
++	ONE("id", 0444, proc_eudyptula_id),
+ };
+ 
+ static int proc_tgid_base_readdir(struct file *file, struct dir_context *ctx)
+diff --git a/include/linux/sched.h b/include/linux/sched.h
+index c4e70e8481c3..65d277d089e3 100644
+--- a/include/linux/sched.h
++++ b/include/linux/sched.h
+@@ -1171,6 +1171,7 @@ struct task_struct {
+ 	void				*security;
+ #endif
+ 
++	u64				id;
+ 	/*
+ 	 * New fields for task_struct should be added above here, so that
+ 	 * they are included in the randomized portion of task_struct.
+diff --git a/kernel/fork.c b/kernel/fork.c
+index 82b7c7a85846..2bffe1dcab8b 100644
+--- a/kernel/fork.c
++++ b/kernel/fork.c
+@@ -1887,6 +1887,8 @@ static __latent_entropy struct task_struct *copy_process(
+ 	INIT_LIST_HEAD(&p->thread_group);
+ 	p->task_works = NULL;
+ 
++	p->id = 12345678;
++
+ 	cgroup_threadgroup_change_begin(current);
+ 	/*
+ 	 * Ensure that the cgroup subsystem policies allow the new process to be
+-- 
+2.17.0
+

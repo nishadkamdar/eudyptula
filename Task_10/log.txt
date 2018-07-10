@@ -1,0 +1,364 @@
+Binary file ./comedi_usb.o matches
+./comedi_fops.c:56: * @last_attached: Last known attached/detached state.
+./comedi_fops.c:63:	bool last_attached:1;
+./comedi_fops.c:154:	if (dev->attached)
+./comedi_fops.c:300:	cfp->last_attached = dev->attached;
+./comedi_fops.c:311:	if (cfp->last_attached != dev->attached ||
+./comedi_fops.c:761:	if (!dev->attached)
+./comedi_fops.c:776:	if (!dev->attached)
+./comedi_fops.c:814:		if (dev->attached) {
+./comedi_fops.c:2068:	if (!dev->attached) {
+./comedi_fops.c:2069:		dev_dbg(dev->class_dev, "no driver attached\n");
+./comedi_fops.c:2195:	 * contention unless the device is in the process of being attached
+./comedi_fops.c:2201:	if (!dev->attached) {
+./comedi_fops.c:2202:		dev_dbg(dev->class_dev, "no driver attached\n");
+./comedi_fops.c:2279:	if (!dev->attached) {
+./comedi_fops.c:2280:		dev_dbg(dev->class_dev, "no driver attached\n");
+./comedi_fops.c:2331:	if (!dev->attached) {
+./comedi_fops.c:2332:		dev_dbg(dev->class_dev, "no driver attached\n");
+./comedi_fops.c:2433:		if (dev->attached && old_detach_count == dev->detach_count &&
+./comedi_fops.c:2467:	if (!dev->attached) {
+./comedi_fops.c:2468:		dev_dbg(dev->class_dev, "no driver attached\n");
+./comedi_fops.c:2569:		if (dev->attached && old_detach_count == dev->detach_count &&
+./comedi_fops.c:2603:	if (!dev->attached && !capable(CAP_SYS_ADMIN)) {
+./comedi_fops.c:2604:		dev_dbg(dev->class_dev, "not attached and not CAP_SYS_ADMIN\n");
+./comedi_fops.c:2608:	if (dev->attached && dev->use_count == 0) {
+./comedi_fops.c:2663:	if (dev->attached && dev->use_count == 1) {
+Binary file ./range.o matches
+Binary file ./kcomedilib/kcomedilib.o matches
+Binary file ./kcomedilib/kcomedilib.ko matches
+Binary file ./kcomedilib/kcomedilib_main.o matches
+./kcomedilib/kcomedilib_main.c:46:	if (dev->attached)
+./kcomedilib/kcomedilib_main.c:75:	if (!dev->attached) {
+./kcomedilib/kcomedilib_main.c:217:	if (dev->attached)
+./kcomedilib/kcomedilib_main.c:235:	if (!dev->attached || subdevice >= dev->n_subdevices)
+Binary file ./comedi.ko matches
+Binary file ./drivers/aio_iiro_16.ko matches
+Binary file ./drivers/adl_pci6208.o matches
+Binary file ./drivers/aio_iiro_16.o matches
+Binary file ./drivers/ni_6527.o matches
+Binary file ./drivers/ni_daq_700.ko matches
+Binary file ./drivers/adl_pci7x3x.o matches
+Binary file ./drivers/adv_pci_dio.ko matches
+Binary file ./drivers/addi_apci_3120.o matches
+Binary file ./drivers/ni_pcimio.ko matches
+Binary file ./drivers/amplc_pci263.ko matches
+Binary file ./drivers/mf6x4.ko matches
+Binary file ./drivers/das08_isa.o matches
+Binary file ./drivers/ni_tio.ko matches
+Binary file ./drivers/amplc_pc236_common.o matches
+Binary file ./drivers/ni_labpc.o matches
+Binary file ./drivers/daqboard2000.ko matches
+Binary file ./drivers/das6402.o matches
+Binary file ./drivers/ni_tiocmd.o matches
+Binary file ./drivers/das6402.ko matches
+Binary file ./drivers/ni_labpc_pci.o matches
+Binary file ./drivers/das1800.ko matches
+Binary file ./drivers/ni_daq_dio24.o matches
+Binary file ./drivers/addi_watchdog.o matches
+Binary file ./drivers/icp_multi.ko matches
+Binary file ./drivers/contec_pci_dio.ko matches
+Binary file ./drivers/cb_das16_cs.ko matches
+Binary file ./drivers/adl_pci9111.o matches
+Binary file ./drivers/cb_pcidda.o matches
+Binary file ./drivers/ni_daq_700.o matches
+Binary file ./drivers/adl_pci7x3x.ko matches
+Binary file ./drivers/ke_counter.ko matches
+Binary file ./drivers/ni_pcidio.ko matches
+./drivers/pcl711.c:189:	if (!dev->attached) {
+Binary file ./drivers/dt9812.o matches
+Binary file ./drivers/dt2815.ko matches
+./drivers/jr3_pci.h:167: * calibration data has a CRC attached to the end of it, to assist in
+Binary file ./drivers/amplc_pci236.ko matches
+Binary file ./drivers/dac02.o matches
+Binary file ./drivers/ni_atmio.o matches
+Binary file ./drivers/ni_tio.o matches
+Binary file ./drivers/das08_isa.ko matches
+Binary file ./drivers/das08_cs.ko matches
+Binary file ./drivers/mpc624.o matches
+Binary file ./drivers/ni_65xx.o matches
+Binary file ./drivers/daqboard2000.o matches
+Binary file ./drivers/ni_usb6501.ko matches
+Binary file ./drivers/pcmad.o matches
+./drivers/cb_pcidas64.c:45: * supported by this driver; they are attached automatically.
+./drivers/cb_pcidas64.c:3059:	if (!dev->attached)
+Binary file ./drivers/amplc_dio200_common.o matches
+Binary file ./drivers/adl_pci9111.ko matches
+Binary file ./drivers/pcl818.ko matches
+Binary file ./drivers/c6xdigio.ko matches
+Binary file ./drivers/addi_apci_1516.ko matches
+Binary file ./drivers/dt3000.o matches
+Binary file ./drivers/dt2801.o matches
+Binary file ./drivers/mpc624.ko matches
+Binary file ./drivers/pcl730.o matches
+Binary file ./drivers/amplc_pc263.o matches
+./drivers/adv_pci1710.c:487:	if (!dev->attached)	/*  is device attached? */
+Binary file ./drivers/ni_labpc_cs.ko matches
+Binary file ./drivers/pcl711.o matches
+Binary file ./drivers/amplc_dio200_common.ko matches
+Binary file ./drivers/addi_apci_2032.o matches
+Binary file ./drivers/ni_660x.o matches
+Binary file ./drivers/cb_pcimdda.o matches
+Binary file ./drivers/addi_apci_3xxx.ko matches
+Binary file ./drivers/8255_pci.ko matches
+Binary file ./drivers/jr3_pci.o matches
+Binary file ./drivers/das08.o matches
+Binary file ./drivers/cb_pcidas.ko matches
+Binary file ./drivers/fl512.o matches
+./drivers/gsc_hpdi.c:189:	if (!dev->attached)
+Binary file ./drivers/amplc_dio200.ko matches
+./drivers/cb_pcidas.c:1211:	if (!dev->attached)
+Binary file ./drivers/ke_counter.o matches
+Binary file ./drivers/dmm32at.o matches
+Binary file ./drivers/comedi_8255.ko matches
+Binary file ./drivers/adl_pci9118.o matches
+Binary file ./drivers/ni_mio_cs.o matches
+Binary file ./drivers/addi_apci_16xx.o matches
+Binary file ./drivers/aio_aio12_8.ko matches
+Binary file ./drivers/das08_pci.ko matches
+./drivers/dt2811.c:201:	if (!dev->attached)
+Binary file ./drivers/icp_multi.o matches
+Binary file ./drivers/addi_apci_3501.o matches
+Binary file ./drivers/s526.o matches
+Binary file ./drivers/dt282x.ko matches
+Binary file ./drivers/amplc_dio200_pci.o matches
+Binary file ./drivers/amplc_pci224.ko matches
+Binary file ./drivers/adv_pci1723.o matches
+Binary file ./drivers/quatech_daqp_cs.o matches
+./drivers/dt2814.c:195:	if (!dev->attached) {
+Binary file ./drivers/adv_pci1723.ko matches
+./drivers/amplc_pc236_common.c:128:	if (dev->attached && handled) {
+Binary file ./drivers/comedi_8255.o matches
+Binary file ./drivers/dyna_pci10xx.o matches
+Binary file ./drivers/ii_pci20kc.o matches
+Binary file ./drivers/adv_pci1720.o matches
+Binary file ./drivers/ni_at_ao.ko matches
+Binary file ./drivers/usbdux.ko matches
+Binary file ./drivers/gsc_hpdi.ko matches
+Binary file ./drivers/ni_labpc_cs.o matches
+Binary file ./drivers/pcm3724.o matches
+Binary file ./drivers/ni_65xx.ko matches
+Binary file ./drivers/pcl818.o matches
+Binary file ./drivers/comedi_8254.ko matches
+Binary file ./drivers/usbduxfast.ko matches
+Binary file ./drivers/pcmda12.o matches
+Binary file ./drivers/comedi_8254.o matches
+Binary file ./drivers/addi_apci_3xxx.o matches
+Binary file ./drivers/pcl724.ko matches
+Binary file ./drivers/pcmuio.o matches
+./drivers/das16m1.c:456:	if (!dev->attached) {
+Binary file ./drivers/serial2002.ko matches
+Binary file ./drivers/adv_pci1760.o matches
+Binary file ./drivers/pcmad.ko matches
+./drivers/me4000.c:929:	if (!dev->attached)
+Binary file ./drivers/dt2815.o matches
+Binary file ./drivers/ni_atmio.ko matches
+Binary file ./drivers/ni_atmio16d.ko matches
+Binary file ./drivers/amplc_pci263.o matches
+Binary file ./drivers/dmm32at.ko matches
+Binary file ./drivers/adv_pci1724.ko matches
+Binary file ./drivers/amplc_dio200.o matches
+./drivers/ni_at_a2150.c:147:	if (!dev->attached)
+Binary file ./drivers/comedi_test.ko matches
+Binary file ./drivers/adl_pci6208.ko matches
+Binary file ./drivers/ni_tiocmd.ko matches
+Binary file ./drivers/pcmuio.ko matches
+Binary file ./drivers/comedi_bond.o matches
+Binary file ./drivers/s626.ko matches
+Binary file ./drivers/addi_apci_2200.o matches
+Binary file ./drivers/addi_apci_16xx.ko matches
+Binary file ./drivers/adv_pci1760.ko matches
+Binary file ./drivers/comedi_isadma.o matches
+./drivers/das1800.c:517:	if (!dev->attached) {
+Binary file ./drivers/contec_pci_dio.o matches
+./drivers/adl_pci9118.c:686:	if (!dev->attached)
+Binary file ./drivers/cb_pcidas64.o matches
+Binary file ./drivers/adq12b.o matches
+Binary file ./drivers/ni_pcimio.o matches
+Binary file ./drivers/cb_pcimdas.o matches
+./drivers/dt282x.c:510:	if (!dev->attached) {
+Binary file ./drivers/das08_cs.o matches
+Binary file ./drivers/8255.o matches
+Binary file ./drivers/pcl726.o matches
+./drivers/ni_labpc_common.c:824:	if (!dev->attached) {
+Binary file ./drivers/dt2811.ko matches
+Binary file ./drivers/dac02.ko matches
+Binary file ./drivers/cb_das16_cs.o matches
+Binary file ./drivers/dt2801.ko matches
+Binary file ./drivers/me_daq.ko matches
+Binary file ./drivers/addi_apci_2200.ko matches
+./drivers/dt9812.c:696:		 * reloaded while device is attached
+./drivers/dt9812.c:739:	/* let the user know what node this device is now attached to */
+Binary file ./drivers/ni_6527.ko matches
+./drivers/adl_pci9111.c:461:	if (!dev->attached) {
+./drivers/adl_pci9111.c:462:		/*  Ignore interrupt before device fully attached. */
+Binary file ./drivers/pcl711.ko matches
+Binary file ./drivers/ni_at_a2150.o matches
+Binary file ./drivers/ni_670x.ko matches
+Binary file ./drivers/das16.ko matches
+Binary file ./drivers/das16.o matches
+Binary file ./drivers/multiq3.ko matches
+Binary file ./drivers/amplc_pci230.o matches
+./drivers/addi_apci_2032.c:170:	if (!dev->attached)
+Binary file ./drivers/addi_apci_1564.ko matches
+Binary file ./drivers/addi_apci_1516.o matches
+Binary file ./drivers/8255.ko matches
+Binary file ./drivers/ni_labpc_isadma.o matches
+./drivers/rtd520.c:618:	if (!dev->attached)
+Binary file ./drivers/ni_labpc_common.o matches
+Binary file ./drivers/amplc_pc236_common.ko matches
+Binary file ./drivers/dt9812.ko matches
+Binary file ./drivers/addi_apci_1564.o matches
+Binary file ./drivers/amplc_pc263.ko matches
+Binary file ./drivers/ni_mio_cs.ko matches
+Binary file ./drivers/pcl726.ko matches
+Binary file ./drivers/pcl812.ko matches
+./drivers/amplc_dio200_common.c:476:	if (!dev->attached)
+Binary file ./drivers/fl512.ko matches
+Binary file ./drivers/adv_pci_dio.o matches
+Binary file ./drivers/pcl730.ko matches
+Binary file ./drivers/me4000.o matches
+Binary file ./drivers/dt2814.ko matches
+Binary file ./drivers/pcl816.o matches
+Binary file ./drivers/dt2817.ko matches
+Binary file ./drivers/adv_pci1724.o matches
+Binary file ./drivers/quatech_daqp_cs.ko matches
+Binary file ./drivers/cb_pcidas.o matches
+Binary file ./drivers/dt2814.o matches
+Binary file ./drivers/amplc_pc236.ko matches
+Binary file ./drivers/pcl812.o matches
+Binary file ./drivers/aio_aio12_8.o matches
+Binary file ./drivers/cb_pcidas64.ko matches
+Binary file ./drivers/dt282x.o matches
+./drivers/comedi_test.c:686:		 "%s: %u microvolt, %u microsecond waveform attached\n",
+Binary file ./drivers/mf6x4.o matches
+Binary file ./drivers/addi_apci_1500.ko matches
+Binary file ./drivers/das16m1.ko matches
+Binary file ./drivers/cb_pcidda.ko matches
+Binary file ./drivers/mite.ko matches
+Binary file ./drivers/rti800.o matches
+Binary file ./drivers/amplc_pci236.o matches
+./drivers/pcl816.c:251:	if (!dev->attached || !devpriv->ai_cmd_running) {
+Binary file ./drivers/comedi_parport.o matches
+Binary file ./drivers/amplc_pci224.o matches
+Binary file ./drivers/ni_usb6501.o matches
+./drivers/s626.c:1238:	if (!dev->attached)
+Binary file ./drivers/pcmmio.ko matches
+Binary file ./drivers/das08.ko matches
+Binary file ./drivers/ni_labpc_pci.ko matches
+Binary file ./drivers/dt2811.o matches
+Binary file ./drivers/das16m1.o matches
+./drivers/ni_660x.c:433:	if (!dev->attached)
+./drivers/ni_660x.c:435:	/* make sure dev->attached is checked before doing anything else */
+Binary file ./drivers/s526.ko matches
+Binary file ./drivers/comedi_parport.ko matches
+./drivers/pcl818.c:541:	if (!dev->attached || !devpriv->ai_cmd_running) {
+Binary file ./drivers/jr3_pci.ko matches
+Binary file ./drivers/usbduxsigma.o matches
+Binary file ./drivers/ni_daq_dio24.ko matches
+Binary file ./drivers/dyna_pci10xx.ko matches
+Binary file ./drivers/pcl816.ko matches
+Binary file ./drivers/dt3000.ko matches
+Binary file ./drivers/comedi_isadma.ko matches
+Binary file ./drivers/adl_pci9118.ko matches
+Binary file ./drivers/amplc_pc236.o matches
+Binary file ./drivers/gsc_hpdi.o matches
+Binary file ./drivers/vmk80xx.o matches
+Binary file ./drivers/8255_pci.o matches
+Binary file ./drivers/addi_apci_1032.ko matches
+Binary file ./drivers/usbduxsigma.ko matches
+Binary file ./drivers/addi_apci_1032.o matches
+./drivers/dt3000.c:323:	if (!dev->attached)
+Binary file ./drivers/das800.ko matches
+Binary file ./drivers/ii_pci20kc.ko matches
+Binary file ./drivers/s626.o matches
+Binary file ./drivers/ni_labpc_common.ko matches
+Binary file ./drivers/serial2002.o matches
+Binary file ./drivers/rtd520.o matches
+Binary file ./drivers/ni_atmio16d.o matches
+./drivers/das800.c:438:	if (!dev->attached)
+./drivers/dmm32at.c:410:	if (!dev->attached) {
+Binary file ./drivers/rti802.o matches
+Binary file ./drivers/pcmmio.o matches
+./drivers/ni_mio_common.c:5187:	if (!dev->attached)
+./drivers/ni_mio_common.c:5189:	smp_mb();		/* make sure dev->attached is checked */
+Binary file ./drivers/rti802.ko matches
+Binary file ./drivers/addi_apci_3501.ko matches
+Binary file ./drivers/usbdux.o matches
+Binary file ./drivers/rti800.ko matches
+Binary file ./drivers/usbduxfast.o matches
+Binary file ./drivers/amplc_pci230.ko matches
+Binary file ./drivers/dt2817.o matches
+Binary file ./drivers/me_daq.o matches
+Binary file ./drivers/amplc_dio200_pci.ko matches
+Binary file ./drivers/adl_pci8164.o matches
+Binary file ./drivers/adv_pci1710.ko matches
+Binary file ./drivers/ni_labpc.ko matches
+Binary file ./drivers/addi_apci_3120.ko matches
+Binary file ./drivers/comedi_bond.ko matches
+Binary file ./drivers/das08_pci.o matches
+Binary file ./drivers/addi_apci_2032.ko matches
+Binary file ./drivers/cb_pcimdda.ko matches
+Binary file ./drivers/rtd520.ko matches
+Binary file ./drivers/das800.o matches
+Binary file ./drivers/ni_660x.ko matches
+Binary file ./drivers/addi_apci_1500.o matches
+Binary file ./drivers/pcm3724.ko matches
+Binary file ./drivers/das1800.o matches
+Binary file ./drivers/adv_pci1710.o matches
+Binary file ./drivers/ni_at_ao.o matches
+Binary file ./drivers/addi_watchdog.ko matches
+./drivers/comedi_bond.c:307:		 "%s: %s attached, %u channels from %u devices\n",
+Binary file ./drivers/pcmda12.ko matches
+Binary file ./drivers/adl_pci8164.ko matches
+Binary file ./drivers/ni_670x.o matches
+Binary file ./drivers/ni_pcidio.o matches
+Binary file ./drivers/cb_pcimdas.ko matches
+Binary file ./drivers/ni_at_a2150.ko matches
+./drivers/quatech_daqp_cs.c:218:	if (!dev->attached)
+Binary file ./drivers/me4000.ko matches
+./drivers/ni_pcidio.c:382:	if (!dev->attached) {
+Binary file ./drivers/pcl724.o matches
+Binary file ./drivers/c6xdigio.o matches
+Binary file ./drivers/vmk80xx.ko matches
+Binary file ./drivers/adv_pci1720.ko matches
+Binary file ./drivers/multiq3.o matches
+Binary file ./drivers/adq12b.ko matches
+Binary file ./drivers/mite.o matches
+Binary file ./drivers/comedi_test.o matches
+./drivers/pcl812.c:842:	if (!dev->attached) {
+Binary file ./drivers/ni_labpc_isadma.ko matches
+./drivers/8255.c:76:		 * For 8255 devices that are manually attached using
+Binary file ./comedi_pcmcia.ko matches
+./proc.c:37:		if (dev->attached) {
+Binary file ./comedi_fops.o matches
+./drivers.c:201:	dev->attached = false;
+./drivers.c:710:	dev->attached = true;
+./drivers.c:905:	if (dev->attached)
+./drivers.c:1046: * (The COMEDI device itself will persist in an unattached state if it is
+./drivers.c:1089: * drivers.  Detaches any COMEDI devices attached to the driver, which will
+./drivers.c:1120:		if (dev->attached && dev->driver == driver) {
+Binary file ./comedi_pcmcia.o matches
+Binary file ./comedi_usb.ko matches
+./comedidev.h:237: * conventional memory or DMA coherent memory, depending on the attached,
+./comedidev.h:454: * @driver: Low-level COMEDI driver attached to this COMEDI device.
+./comedidev.h:488: * @attached: Flag indicating that the COMEDI device is attached to a low-level
+./comedidev.h:497: *	changing @attached and @detach_count and calling the low-level driver's
+./comedidev.h:545:	bool attached:1;
+./comedi_pci.c:16: * comedi_to_pci_dev() - Return PCI device attached to COMEDI device
+./comedi_pci.c:22: * Return: Attached PCI device if @dev->hw_dev is non-%NULL.
+./comedi_pci.c:153: * a COMEDI device attached to this PCI device, using a pointer to the
+Binary file ./drivers.o matches
+Binary file ./comedi_pci.o matches
+./range.c:61:	if (!dev->attached)
+./comedi_pcmcia.c:16: * comedi_to_pcmcia_dev() - Return PCMCIA device attached to COMEDI device
+./comedi_pcmcia.c:22: * Return: Attached PCMCIA device if @dev->hw_dev is non-%NULL.
+./comedi_pcmcia.c:134: * Auto-unconfigure a COMEDI device attached to this PCMCIA device, using a
+Binary file ./comedi_pci.ko matches
+Binary file ./comedi.o matches
+./comedi_usb.c:15: * comedi_to_usb_interface() - Return USB interface attached to COMEDI device
+./comedi_usb.c:21: * Return: Attached USB interface if @dev->hw_dev is non-%NULL.
+./comedi_usb.c:31: * comedi_to_usb_dev() - Return USB device attached to COMEDI device
+./comedi_usb.c:76: * Auto-unconfigure a COMEDI device attached to this USB interface, using a
+Binary file ./proc.o matches
+Binary file ./comedi_buf.o matches

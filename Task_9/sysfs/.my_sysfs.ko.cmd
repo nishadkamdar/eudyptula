@@ -1,0 +1,1 @@
+cmd_/home/nishad/workspace_nishad/eudyptula/Task_9/sysfs/my_sysfs.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/nishad/workspace_nishad/eudyptula/Task_9/sysfs/my_sysfs.ko /home/nishad/workspace_nishad/eudyptula/Task_9/sysfs/my_sysfs.o /home/nishad/workspace_nishad/eudyptula/Task_9/sysfs/my_sysfs.mod.o ;  true

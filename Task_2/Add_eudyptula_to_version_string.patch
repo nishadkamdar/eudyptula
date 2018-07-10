@@ -1,0 +1,12 @@
+Subject: [Version String] Version: Add eudyptula to version string
+--- Makefile	2018-05-06 21:45:25.823167364 +0530
++++ Makefile	2018-05-06 21:44:41.982751999 +0530
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 16
+ SUBLEVEL = 7
+-EXTRAVERSION = 
++EXTRAVERSION = -eudyptula
+ NAME = Fearless Coyote
+ 
+ # *DOCUMENTATION*

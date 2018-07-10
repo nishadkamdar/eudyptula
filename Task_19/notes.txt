@@ -1,0 +1,4 @@
+using socket programming, the data content can be seen.
+
+but when sending mail, probably the data is encrypted. hence it cannot be seen.
+

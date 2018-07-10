@@ -1,0 +1,83 @@
+From ede4dc0d0cafdb158dd1c3d249ad63f79f0767e1 Mon Sep 17 00:00:00 2001
+From: Nishad Kamdar <nishadkamdar@gmail.com>
+Date: Sat, 2 Jun 2018 11:40:42 +0530
+Subject: [PATCH] misc: lis3lv02d: Add sysfs file named "id" in /sys/devices/
+
+Add a sysfs file to show up in the /sys/devices/
+tree for the device that is called "id". The file
+will show up for lis3lv02d sensor driver. Part of
+eudyptula challenge.
+
+Signed-off-by: Nishad Kamdar <nishadkamdar@gmail.com>
+---
+ drivers/misc/lis3lv02d/lis3lv02d.c | 36 ++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+
+diff --git a/drivers/misc/lis3lv02d/lis3lv02d.c b/drivers/misc/lis3lv02d/lis3lv02d.c
+index e9bb1cfa6a7a..1ae69e4fe271 100644
+--- a/drivers/misc/lis3lv02d/lis3lv02d.c
++++ b/drivers/misc/lis3lv02d/lis3lv02d.c
+@@ -95,6 +95,35 @@
+ #define LIS3_DEFAULT_FUZZ_8B		1
+ #define LIS3_DEFAULT_FLAT_8B		1
+ 
++static const char author_id[] = "Nishad Kamdar";
++static const ssize_t author_id_size = sizeof(author_id);
++static char user_input[4096];
++
++static ssize_t id_show(struct kobject *kobj, struct kobj_attribute *attr,
++                char *buf)
++{
++        return sprintf(buf, "%s\n", author_id);
++}
++
++static ssize_t id_store(struct kobject *kobj, struct kobj_attribute *attr,
++                const char *buf, size_t count)
++{
++        int retval;
++
++        strncpy(user_input, buf, count);
++
++        if (strncmp(author_id, user_input, 13) != 0) {
++                printk(KERN_INFO "incorrect value written\n");
++                retval = -1;
++        } else {
++                printk(KERN_INFO "correct value written\n");
++                retval = count;
++        }
++        return retval;
++}
++
++static struct kobj_attribute id_attribute = __ATTR(id, 0644, id_show, id_store);
++
+ struct lis3lv02d lis3_dev = {
+ 	.misc_wait   = __WAIT_QUEUE_HEAD_INITIALIZER(lis3_dev.misc_wait),
+ };
+@@ -863,17 +892,24 @@ static const struct attribute_group lis3lv02d_attribute_group = {
+ 
+ static int lis3lv02d_add_fs(struct lis3lv02d *lis3)
+ {
++	int file_id;
+ 	lis3->pdev = platform_device_register_simple(DRIVER_NAME, -1, NULL, 0);
+ 	if (IS_ERR(lis3->pdev))
+ 		return PTR_ERR(lis3->pdev);
+ 
+ 	platform_set_drvdata(lis3->pdev, lis3);
++	file_id = sysfs_create_file(lis3->pdev->dev.kobj.parent->parent,
++				&id_attribute.attr);
++	if (file_id)
++		pr_debug("unable to create id file in /sys/devices\n");
+ 	return sysfs_create_group(&lis3->pdev->dev.kobj, &lis3lv02d_attribute_group);
+ }
+ 
+ int lis3lv02d_remove_fs(struct lis3lv02d *lis3)
+ {
+ 	sysfs_remove_group(&lis3->pdev->dev.kobj, &lis3lv02d_attribute_group);
++	sysfs_remove_file(lis3->pdev->dev.kobj.parent->parent,
++			&id_attribute.attr);
+ 	platform_device_unregister(lis3->pdev);
+ 	if (lis3->pm_dev) {
+ 		/* Barrier after the sysfs remove */
+-- 
+2.17.0
+

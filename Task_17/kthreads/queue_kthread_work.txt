@@ -1,0 +1,12 @@
+/**
+ * queue_kthread_work - queue a kthread_work
+ * @worker: target kthread_worker
+ * @work: kthread_work to queue
+ *
+ * Queue @work to work processor @task for async execution.  @task
+ * must have been created with kthread_worker_create().  Returns %true
+ * if @work was successfully queued, %false if it was already pending.
+ */
+
+bool queue_kthread_work(struct kthread_worker *worker,
+                        struct kthread_work *work)

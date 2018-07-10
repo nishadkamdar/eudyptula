@@ -1,0 +1,6 @@
+/* When someone calls kthread_park() on your kthread, it will be woken
+ * and kthread_should_park will return true.  You should then do the
+ * necessary cleanup and call kthread_parkme()
+ */
+
+void kthread_parkme(void)

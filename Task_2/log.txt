@@ -1,0 +1,6 @@
+nishad@nishad:~$ uname -r
+4.15.0-20-generic
+nishad@nishad:~$ uname -a
+Linux nishad 4.15.0-20-generic #21-Ubuntu SMP Tue Apr 24 06:16:15 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+nishad@nishad:~$ 
+

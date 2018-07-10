@@ -1,0 +1,45 @@
+[  446.661825] rfkill: input handler disabled
+[  475.888113] usb 2-1: new low-speed USB device number 4 using xhci_hcd
+[  476.040107] usb 2-1: New USB device found, idVendor=04ca, idProduct=0061
+[  476.040114] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[  476.040119] usb 2-1: Product: USB Optical Mouse
+[  476.040122] usb 2-1: Manufacturer: PixArt
+[  476.128478] hidraw: raw HID events driver (C) Jiri Kosina
+[  476.157448] usbcore: registered new interface driver usbhid
+[  476.157450] usbhid: USB HID core driver
+[  476.168879] Hello World!
+[  476.168909] usbcore: registered new interface driver usb_kbd_hello
+[  476.204531] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:04CA:0061.0001/input/input19
+[  476.264483] hid-generic 0003:04CA:0061.0001: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:14.0-1/input0
+[  531.099703] usb 2-1: USB disconnect, device number 4
+[  567.744016] usb 2-6: new low-speed USB device number 5 using xhci_hcd
+[  567.895783] usb 2-6: New USB device found, idVendor=04ca, idProduct=0061
+[  567.895789] usb 2-6: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[  567.895793] usb 2-6: Product: USB Optical Mouse
+[  567.895796] usb 2-6: Manufacturer: PixArt
+[  567.899167] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb2/2-6/2-6:1.0/0003:04CA:0061.0002/input/input20
+[  567.899484] hid-generic 0003:04CA:0061.0002: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:14.0-6/input0
+[  573.558954] usb 2-6: USB disconnect, device number 5
+[  592.672115] usb 2-1: new low-speed USB device number 6 using xhci_hcd
+[  592.823609] usb 2-1: New USB device found, idVendor=04ca, idProduct=0061
+[  592.823616] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[  592.823620] usb 2-1: Product: USB Optical Mouse
+[  592.823624] usb 2-1: Manufacturer: PixArt
+[  592.827147] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:04CA:0061.0003/input/input21
+[  592.827549] hid-generic 0003:04CA:0061.0003: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:14.0-1/input0
+[  687.602984] See you later.
+[  687.602986] usbcore: deregistering interface driver usb_kbd_hello
+[  691.901885] usbcore: deregistering interface driver usbhid
+[  694.169140] usb 2-1: USB disconnect, device number 6
+[  743.704085] usb 2-1: new low-speed USB device number 7 using xhci_hcd
+[  743.855650] usb 2-1: New USB device found, idVendor=04ca, idProduct=0061
+[  743.855657] usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[  743.855660] usb 2-1: Product: USB Optical Mouse
+[  743.855664] usb 2-1: Manufacturer: PixArt
+[  743.880594] input: PixArt USB Optical Mouse as /devices/pci0000:00/0000:00:14.0/usb2/2-1/2-1:1.0/0003:04CA:0061.0004/input/input22
+[  743.940430] hid-generic 0003:04CA:0061.0004: input,hidraw0: USB HID v1.11 Mouse [PixArt USB Optical Mouse] on usb-0000:00:14.0-1/input0
+[  743.940520] usbcore: registered new interface driver usbhid
+[  743.940521] usbhid: USB HID core driver
+[  743.946746] Hello World!
+[  743.946812] usbcore: registered new interface driver usb_kbd_hello
+

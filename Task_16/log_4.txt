@@ -1,0 +1,9 @@
+
+  WARNING: Symbol version dump ./Module.symvers
+           is missing; modules will have no dependencies and modversions.
+
+scripts/Makefile.build:558: recipe for target 'drivers/staging/comedi' failed
+scripts/Makefile.build:558: recipe for target 'drivers/staging/dgnc' failed
+scripts/Makefile.build:558: recipe for target 'drivers/staging/fwserial' failed
+scripts/Makefile.build:558: recipe for target 'drivers/staging/fbtft' failed
+Makefile:1499: recipe for target '_module_drivers/staging' failed

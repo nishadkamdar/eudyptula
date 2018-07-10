@@ -1,0 +1,42 @@
+######################################################################
+
+Creating an entry in /proc/[pid]/:
+
+https://lists.kernelnewbies.org/pipermail/kernelnewbies/2011-January/000475.html
+
+In include/linux/sched.h file
+1 - add a new element in task_struct structure.
+struct task_struct {
+int my_value;
+        .......
+
+In  fs/proc/base.c file
+1 - Create a new entry in static pid_entry tgid_base_stuff[] array.
+e.g.  ONE("MY_FILE", S_IRUSR, proc_pid_my_file),
+
+2 - Create a callback function that will be invoked when the new proc entry
+is accessed (*task_struct is passed to this function).
+static int proc_pid_my_file(struct seq_file *m, struct pid_namespace *ns,
+ struct pid *pid, struct task_struct *task)
+{
+seq_printf(m, "%s %d\n", "here we go....", task->my_value);
+ return 0;
+}
+
+
+Use the task_struct as usual:
+struct task_struct *task;
+ task = pid_task(find_vpid(1), PIDTYPE_PID);
+
+############################################################################
+Initializing the entry when any task is created
+
+The do_fork() call makes a call to copy_process() which is called when a process
+is created. 
+
+It is located in the file /kernel/fork.c
+
+Initialize the variable here.
+
+############################################################################
+

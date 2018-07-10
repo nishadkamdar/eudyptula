@@ -1,0 +1,9 @@
+/**
+ * flush_kthread_worker - flush all current works on a kthread_worker
+ * @worker: worker to flush
+ *
+ * Wait until all currently executing or pending works on @worker are
+ * finished.
+ */
+
+void flush_kthread_worker(struct kthread_worker *worker)

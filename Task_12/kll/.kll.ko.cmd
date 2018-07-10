@@ -1,0 +1,1 @@
+cmd_/home/nishad/workspace_nishad/eudyptula/Task_12/kll/kll.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/nishad/workspace_nishad/eudyptula/Task_12/kll/kll.ko /home/nishad/workspace_nishad/eudyptula/Task_12/kll/kll.o /home/nishad/workspace_nishad/eudyptula/Task_12/kll/kll.mod.o ;  true

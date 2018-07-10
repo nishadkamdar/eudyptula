@@ -1,0 +1,3 @@
+https://www.win.tue.nl/~aeb/linux/lk/lk-7.html
+
+ftp://ftp.iitb.ac.in/LDP/en/lki/

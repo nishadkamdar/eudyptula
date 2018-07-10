@@ -1,0 +1,48 @@
+In order to load a module on USB Keyboard or USB mouse Hotplug,
+you'll have to write a small USB input device driver.
+
+The input device driver for USB keyboard and mouse typically is
+the HID driver. Read about HID driver in Essential device drivers.
+
+A generic HID driver is used to collect hw events from the HID
+supported devices like KBD, mouse, Joystick and send these events
+to higher layers.
+
+Now there are two types of HIDs,
+a. Generic HID driver (usbhid.c) {for PCs}
+b. KBD specific / mouse specific HID (usbkbd.c, usbmouse.c) {for
+embedded devices}
+
+In our case, it can be seen using dmesg -w that when mouse is
+connected, usbhid.ko module is loaded.
+
+So we write a small USB driver with usb_device_id same as that
+is used by usbhid module, which actually is in hid-core.c.
+
+static const struct usb_device_id usb_kbd_hello_table[] = {
+	{ .match_flags = USB_DEVICE_ID_MATCH_INT_CLASS,
+		.bInterfaceClass = USB_INTERFACE_CLASS_HID },
+	{ }
+};
+
+Do not use the following usb_device_ids in usbkbd.c or usbmouse.c:
+
+/*static const struct usb_device_id usb_kbd_hello_table[] = {
+ *	{ USB_INTERFACE_INFO(USB_INTERFACE_CLASS_HID,
+ *	USB_INTERFACE_SUBCLASS_BOOT,
+ *		USB_INTERFACE_PROTOCOL_KEYBOARD) },
+ *	{ }
+ * };
+ */
+
+Now, in order to load the module when mouse is inserted, you'll have
+to modify the Kconfig and Makefile to include this module, copy the
+module in drivers/hid/usbhid/ and do sudo make modules_install
+and sudo make install.
+
+You shpuld find entries of your module in modules.order, modules.dep
+and modules.alias.
+
+Boot with the new kernel and see if module is loaded when USB mouse
+is inserted. It is observed that mouse stops to work, while the new
+module loads.
